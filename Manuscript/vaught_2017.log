@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JUL 2018 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JUL 2018 15:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -673,12 +673,12 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 206.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<../Figures/stamps.pdf, id=597, 592.14977pt x 303.05031pt>
+<../Figures/stamps.pdf, id=597, 592.14977pt x 305.05782pt>
 File: ../Figures/stamps.pdf Graphic file (type pdf)
 
 <use ../Figures/stamps.pdf>
 Package pdftex.def Info: ../Figures/stamps.pdf used on input line 227.
-(pdftex.def)             Requested size: 414.502pt x 212.13376pt.
+(pdftex.def)             Requested size: 414.502pt x 213.539pt.
  <../Figures/J_26.pdf, id=601, 433.62pt x 289.08pt>
 File: ../Figures/J_26.pdf Graphic file (type pdf)
 
@@ -767,7 +767,7 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 290.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<../Figures/sigmas.pdf, id=1109, 361.10785pt x 305.13687pt>
+<../Figures/sigmas.pdf, id=1108, 361.10785pt x 305.13687pt>
 File: ../Figures/sigmas.pdf Graphic file (type pdf)
 
 <use ../Figures/sigmas.pdf>
@@ -797,7 +797,7 @@ Class revtex4-1 Warning: Dequeueing of floats stalled.
 LaTeX Warning: A float is stuck (cannot be placed) on input line 338.
 
 [11 <../Figures/sigmas.pdf>] [12]
-<../Figures/limits.pdf, id=1324, 433.62pt x 289.08pt>
+<../Figures/limits.pdf, id=1323, 433.62pt x 289.08pt>
 File: ../Figures/limits.pdf Graphic file (type pdf)
 
 <use ../Figures/limits.pdf>
@@ -808,7 +808,7 @@ Overfull \hbox (17.90749pt too wide) in paragraph at lines 382--383
  [][] 
  []
 
-<../Figures/mass_limits.pdf, id=1325, 433.62pt x 289.08pt>
+<../Figures/mass_limits.pdf, id=1324, 433.62pt x 289.08pt>
 File: ../Figures/mass_limits.pdf Graphic file (type pdf)
 
 <use ../Figures/mass_limits.pdf>
@@ -834,28 +834,28 @@ LaTeX Warning: Command \r invalid in math mode on input line 419.
 
 LaTeX Warning: Command \r invalid in math mode on input line 419.
 
-<../Figures/J26EW.pdf, id=1472, 435.38661pt x 136.29639pt>
+<../Figures/J26EW.pdf, id=1471, 435.38661pt x 136.29639pt>
 File: ../Figures/J26EW.pdf Graphic file (type pdf)
 
 <use ../Figures/J26EW.pdf>
 Package pdftex.def Info: ../Figures/J26EW.pdf used on input line 443.
 (pdftex.def)             Requested size: 410.4955pt x 128.50543pt.
 
-<../Figures/J36EW.pdf, id=1473, 435.38661pt x 136.29639pt>
+<../Figures/J36EW.pdf, id=1472, 435.38661pt x 136.29639pt>
 File: ../Figures/J36EW.pdf Graphic file (type pdf)
 
 <use ../Figures/J36EW.pdf>
 Package pdftex.def Info: ../Figures/J36EW.pdf used on input line 444.
 (pdftex.def)             Requested size: 410.4955pt x 128.50543pt.
 
-<../Figures/J03EW.pdf, id=1474, 435.38661pt x 136.29639pt>
+<../Figures/J03EW.pdf, id=1473, 435.38661pt x 136.29639pt>
 File: ../Figures/J03EW.pdf Graphic file (type pdf)
 
 <use ../Figures/J03EW.pdf>
 Package pdftex.def Info: ../Figures/J03EW.pdf used on input line 445.
 (pdftex.def)             Requested size: 410.4955pt x 128.50543pt.
 
-<../Figures/J64EW.pdf, id=1475, 435.38661pt x 136.82149pt>
+<../Figures/J64EW.pdf, id=1474, 435.38661pt x 136.82149pt>
 File: ../Figures/J64EW.pdf Graphic file (type pdf)
 
 <use ../Figures/J64EW.pdf>
@@ -865,21 +865,21 @@ Package pdftex.def Info: ../Figures/J64EW.pdf used on input line 446.
 
 LaTeX Warning: Float too large for page by 33.19792pt on input line 449.
 
-<../Figures/ew_comb.pdf, id=1476, 433.62pt x 289.08pt>
+<../Figures/ew_comb.pdf, id=1475, 433.62pt x 289.08pt>
 File: ../Figures/ew_comb.pdf Graphic file (type pdf)
 
 <use ../Figures/ew_comb.pdf>
 Package pdftex.def Info: ../Figures/ew_comb.pdf used on input line 454.
 (pdftex.def)             Requested size: 390.2544pt x 260.16959pt.
 
-<../Figures/geo_J26.pdf, id=1477, 433.62pt x 289.08pt>
+<../Figures/geo_J26.pdf, id=1476, 433.62pt x 289.08pt>
 File: ../Figures/geo_J26.pdf Graphic file (type pdf)
 
 <use ../Figures/geo_J26.pdf>
 Package pdftex.def Info: ../Figures/geo_J26.pdf used on input line 462.
 (pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
 
-<../Figures/geo_J36.pdf, id=1478, 433.62pt x 289.08pt>
+<../Figures/geo_J36.pdf, id=1477, 433.62pt x 289.08pt>
 File: ../Figures/geo_J36.pdf Graphic file (type pdf)
 
 <use ../Figures/geo_J36.pdf>
@@ -890,14 +890,14 @@ Overfull \hbox (2.05554pt too wide) detected at line 462
  []   [] 
  []
 
-<../Figures/geo_J03.pdf, id=1479, 433.62pt x 289.08pt>
+<../Figures/geo_J03.pdf, id=1478, 433.62pt x 289.08pt>
 File: ../Figures/geo_J03.pdf Graphic file (type pdf)
 
 <use ../Figures/geo_J03.pdf>
 Package pdftex.def Info: ../Figures/geo_J03.pdf used on input line 464.
 (pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
 
-<../Figures/geo_J64.pdf, id=1480, 433.62pt x 289.08pt>
+<../Figures/geo_J64.pdf, id=1479, 433.62pt x 289.08pt>
 File: ../Figures/geo_J64.pdf Graphic file (type pdf)
 
 <use ../Figures/geo_J64.pdf>
@@ -981,9 +981,9 @@ onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti9.pfb>
-Output written on vaught_2017.pdf (18 pages, 2841347 bytes).
+Output written on vaught_2017.pdf (18 pages, 2839994 bytes).
 PDF statistics:
- 2173 PDF objects out of 2487 (max. 8388607)
+ 2172 PDF objects out of 2487 (max. 8388607)
  920 compressed objects within 10 object streams
  114 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
