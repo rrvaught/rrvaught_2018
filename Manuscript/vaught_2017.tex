@@ -351,16 +351,11 @@ The surface brightness profiles presented in Figures \ref{fig:sb_profiles} do no
 Figures \ref{fig:ews}  show the images, distributions and radial projections of \ion{Mg}{2} EWs. We have zeroed out any values that lie outside the SB$_1$ contours for each galaxy. We also impose a signal-to-noise cut, only including EWs where the continuum S/N is greater than $1.5$. The mean EW is computed for all pixels inside each Keck/LRIS aperture, defined in Sec. \ref{subsec.ew}, and the resulting values are summarized in Table \ref{tab:abs_props}. Comparing our narrowband EWs with those measured from the spectra, we find agreement to within a 1.6-4.6$\sigma$ for galaxies J.26 and J.36, and more statistically significant differences for galaxies J.03 and J.64 We discuss possible causes for these differences below.
 
 Figure \ref{fig:spec_images}(c) shows the Keck/LRIS spectrum of galaxy J.03. The continuum observed near the \ion{Mg}{2} transition is noisy, compared to the spectra of the rest of the sample. Since the value of the EW is dependent on the level of the continuum present near the \ion{Mg}{2} transition, it may well be that our choice of continuum level in calculating the EW from the spectrum might be higher relative to the continuum level implied by our narrow-band image.
-%might be over-estimating the EW of the doublet.
+
 
 Figure \ref{fig:spec_images}(d) shows the Keck/LRIS spectrum of galaxy J.64. This galaxy is the brightest galaxy in the sample, and also exhibits the highest-velocity wind.  This shifts the \ion{Mg}{2} absorption profile toward the blue end of the 
 HeII+47 transmission curve, which could cause the flux in this filter to be weighted toward the continuum level and the absorption signal to be underestimated.
 
-%suggestive of a bright ISM, which causes the redder transition to almost leak out of the HeII+47 transmission curve. This suggests %that it our \ion{Mg}{2} images are not measuring the most redward absorption feature, thus underestimating the value of the EW.
-
-%In the case of J.57 we can easily understand why the EW measured is not in agreement with the spectral EW. Figure \ref{fig:sb_profiles}  shows the SB profile coverage of J.57. In this galaxy's profile we do not detect any significant SB decrements, due to absorption, as the two filters cover the \ion{Mg}{2} as discussed above. Any signal of absorption in the EW images arises from noise. Figure \ref{fig:ew55} shows that the radial projection of the EWs measured for this galaxy that are centered around zero.
-
-%To get a better sense of how the EW of \ion{Mg}{2} absorption changes with radius as well as account for the effects of seeing, %$FWHM \sim 7 kpc$, we bin the EWs in radial bins with 5, 4 or 3 kpc widths as shown in Figures \label{fig:ew1} through %\label{fig:ew5}. 
 As demonstrated in our radially-binned EW profiles, a majority of the galaxies exhibit large scatter in the binned EWs out to larger radii. To better understand the significance of these trends, we construct a plot that compiles the mean EWs for all the galaxies, shown in Figure \ref{fig:ew_comb}. To take into account the varying size of the galaxies, we normalize the distances by the approximate radius of the SB$_1$ contour for each galaxy. 
 
 Upon inspection of Figure \ref{fig:ew_comb}, we see that the galaxies exhibit no statistically significant trend in the mean absorption EW as a function of radius inside our 1SB$_1$ isophotal contour, which suggests that the covering fraction is approximately constant across the surface.
@@ -368,10 +363,23 @@ Upon inspection of Figure \ref{fig:ew_comb}, we see that the galaxies exhibit no
 \subsection{Limits on \ion{Mg}{2} Emission}
 For our sample of galaxies, we are sensitive to extended emission at minimum projected distances of 
 13, 18, 21 and 24 kpc, respectively, from the centers of each target.
-%outside the center of the galxies at distances 8-21 kpc fr
-We do not detect any significant \ion{Mg}{2} emission at these distances around any of our target galaxies. The $\chi_{\text{smooth}}$ images shown in Figure \ref{fig:sigmas} confirm this. A comparison of the simulated emission with the $\chi_{\text{smooth}}$ image of the original continuum-subtracted image, shown in the first column, similarly suggests that we do not detect any extended \ion{Mg}{2} emission. We thus place $5\sigma$ upper limits on \ion{Mg}{2} emission for each galaxy in the sample, summarized in Table \ref{tab:det_lims}. The most sensitive detection limit using the largest area is SB(\ion{Mg}{2}) = 5.74 $\times$ $10^{-19}$ ergs sec $^{-1}$ cm$^{-2}$ arcsec$^2$, computed for the galaxy J.03. 
-\section{Discussion}\label{sec:discussion}
 
+We do not detect any significant \ion{Mg}{2} emission at these distances around any of our target galaxies. The $\chi_{\text{smooth}}$ images shown in Figure \ref{fig:sigmas} confirm this. A comparison of the simulated emission with the $\chi_{\text{smooth}}$ image of the original continuum-subtracted image, shown in the first column, similarly suggests that we do not detect any extended \ion{Mg}{2} emission. We thus place $5\sigma$ upper limits on \ion{Mg}{2} emission for each galaxy in the sample, summarized in Table \ref{tab:det_lims}. The most sensitive detection limit using the largest area is SB(\ion{Mg}{2}) = 5.74 $\times$ $10^{-19}$ ergs sec $^{-1}$ cm$^{-2}$ arcsec$^2$, computed for the galaxy J.03. 
+\begin{table}[]
+\centering
+\caption{Properties of \ion{Mg}{2}\ Absorption\label{tab:abs_props}}  
+\begin{tabular}{llllll} \hline \hline
+Object & SB$_{abs}$\footnote{Maximum SB decrement, values are in units of $10^{-18}$ ergs sec $^{-1}$ cm$^{-2}$ arcsec$^2$} & $R$\footnote{Radius of SB$_1$ contour in kpc} &\ \ \ EW$_{\rm{obs}}$($\AA$)\footnote{ Measured from EW images} & EW$_{\rm{obs}}$($\AA$)\footnote{Measured from Keck/LRIS spectra}  \\  \hline
+J.26 &  $-5.39 \pm 1.28 $ & 8 &     $\ \ \ 3.51 \pm 0.80$ & $7.53 \pm 0.35 $\\
+J.36 &  $-5.64 \pm 0.121 $ & 15 & $\ \ \ 7.69 \pm 1.02$ & $5.83 \pm 0.49$\\
+J.03 &  $-4.41 \pm 0.622 $ & 21 & $\ \ \ 5.39 \pm 0.71$ & $12.7 \pm 1.71$\\
+J.64 &  $-18.2 \pm 0.127 $ & 10 & $\ \ \ 7.55 \pm 0.66$ & $13.2 \pm 0.26$\\
+J.57 &  $-1.25 \pm 1.15   $ & 11& -$0.653 \pm 0.58$ & $6.10 \pm 0.37$\\ \hline
+\end{tabular}
+\end{table}
+
+
+\section{Discussion}\label{sec:discussion}
 \subsection{Previous Detections of Extended \ion{Mg}{2} Emission}
 Previous constraints on the brightness of scattered \ion{Mg}{2} emission were reported by \cite{Rubin_2011}. In this work the authors studied emission from the starburst galaxy TKRS 4389 at $z = 0.69$ with a star formation rate of $49.8\msunperyr$. This emission was detected in a 2-dimensional Keck/LRIS spectrum, with flux from the emission reaching $(8.0 \pm 0.4)$ and $(4.4 \pm 0.4)$ $\times10^{-18}$ ergs sec$^{-1}$ cm$^{-2}$ at  $\lambda _{2796}$ and $(4.0 \pm 0.3)$ and $(2.5 \pm 0.4)$ $\times10^{-18}$ ergs sec$^{-1}$ cm$^{-2}$ at $\lambda_{2803}$ in two independent locations spatially offset from the galaxy continuum. The flux from the emission can be converted into two surface brightness values by taking the average of the flux measured at each location and each transition, and dividing by a 1 sq.arcsec aperture. 
 
@@ -395,35 +403,21 @@ Figure \ref{fig:SFR_lim} shows a plot of the 5$\sigma$ detection limits determin
 In idealized wind models of cool gas outflows, discussed in \cite{Prochaska_2011}, radiative transfer calculations suggest that strong \ion{Mg}{2} emission is predicted to be generated along with ubiquitous blueshifted absorption of \ion{Mg}{2}. For isotropic and dust-free scenarios, photons are conserved, as any absorbed continuum photon is eventually re-emitted, most likely at a different rest wavelength.  Therefore, the total equivalent width of both the absorption and emission features is equal to zero in such models. Assuming that our galaxies host an isotropic and dust-free wind, we wish to determine how much emission is predicted to be generated by this wind, and how the SB of this emission compares to our detection limits.
 
 To calculate the predicted emission flux we first determine the flux absorbed by \ion{Mg}{2} ions. Using our Keck/LRIS spectra, we find the average value of the continuum near the \ion{Mg}{2} doublet and multiply this value by the observed EW of the doublet. Then to estimate the SB, we distribute this flux uniformly inside multiple annuli of varying sizes. These annuli all have an inner radius equal to the galaxy's isophotal radius and successively larger outer radii.  Additionally, since our SB limits are dependent on the size of the aperture used, we calculate the SB detection limits of our images inside each of the aforementioned annuli. Figure \ref{fig.emission} shows how the SB of emission varies with the spatial extent of the annulus (black squares), as well as how the SB compares with our detection limits (thin black curve). Excepting the galaxy J.03, the SB of this ``missing'' emission lies above our detection limits. %Without taking into account that the emission may not exceed to a radial extent outside the galaxy disk, 
-Under the assumption that the wind in these galaxies does in fact extend beyond the $\rm SB_1$ isophotal contour (at $R_{\perp} = 8-21$ kpc), this result suggests that these galaxies do not host  isotropic, dust-free winds.  
+Under the assumption that the wind in these galaxies does in fact extend beyond the $\rm SB_1$ isophotal contour (at $R_{\perp} = 8-21$ kpc), this result suggests that these galaxies do not host isotropic, dust-free winds.  
 
-There are many phenomena that may reduce the SB of the scattered \ion{Mg}{2} emission so that it is consistent with our observations. Introducing dust into the wind can reduce the observed emission strength, and affect the shape of the line profile. 
-%In the absense of dust, the back scattered \ion{Mg}{2} photon can escape the galaxy free of collisions. With dust, the photons are %susceptible to a number of collisions, with a greater possibility of being absorbed by dust. 
-In the \cite{Prochaska_2011} radiative models that include dust in the wind material, the dominant effect %that dust has on the
- is that  the most redshifted emission is suppressed. The strength of the flux is reduced by a factor of $(1+\tau_{\rm{dust}})^{-1}$, where $\tau_{\rm{dust}}$ is the integrated opacity of dust.  [Check on dust content implied by SED modeling from Rubin+14.]
+\subsubsection{Anisotropic and Dust Free Winds}
 
-Another factor that can reduce the amount of emission is anisotropy of the wind. Direct evidence of anisotropic winds, specifically bipolar morphology, has been observed in emission from cold and shock heated gas in local starburst galaxies \citep[e.g.][]{{Walter2002,Westmoquette2008M,Strickland2009}}. For distant galaxies, enhanced absorption \ion{Mg}{2} along a galaxy's minor axis (Bordoloi et al. 2011; Bouche? et al. 2012; Kacprzak et al. 2012),  higher outflow velocities toward $z \sim 1$ galaxies having $i < 45 ^{\circ}$ are suggestive of bipolar outflows. Furthermore, \cite{Rubin_2014} analysis provide strong evidence for the ubiquity of bipolar outflows in distant galaxies.
+There are many phenomena that may reduce the SB of the scattered \ion{Mg}{2} emission so that it is consistent with our observations. One factor that can affect the observed emission strength is morphology of the wind. Anisotropic winds were shown in \cite{Prochaska_2011} to exhibit reduced emission strength compared to an isotrpic wind. Direct evidence of anisotropic winds, specifically bipolar morphology, has been observed in emission from cold and shock heated gas in local starburst galaxies \citep[e.g.][]{{Walter2002,Westmoquette2008M,Strickland2009}}. For distant galaxies, enhanced absorption \ion{Mg}{2} along a galaxy's minor axis (Bordoloi et al. 2011; Bouche? et al. 2012; Kacprzak et al. 2012),  higher outflow velocities toward $z \sim 1$ galaxies having $i < 45 ^{\circ}$ are suggestive of bipolar outflows. Furthermore, \cite{Rubin_2014} analysis provide strong evidence for the ubiquity of bipolar outflows in distant galaxies.
 
-We now assume that the emission in our galaxies is reduced by the effect of anisotropy. 
-For the anisotropic winds modeled in \cite{Prochaska_2011}, the emission is reduced by the factor $\Omega/4\pi$, where $\Omega$ is the angular extent of the wind. 
-As \citet{Prochaska_2011} points out, given that the outflow must cover most of the continuum in order to be detected, the value of $\Omega$ has an approximate lower limit of $\Omega > 2\pi$. 
-We show the predicted SB profiles for wind emission from our galaxies assuming  $\Omega = 2\pi$ with blue diamonds in Figure  \ref{fig.emission}.
+We now assume that the emission in our galaxies is reduced by the effect of anisotropy. For the anisotropic winds modeled in \cite{Prochaska_2011}, the emission is reduced by the factor $\Omega/4\pi$, where $\Omega$ is the angular extent of the wind. As \citet{Prochaska_2011} points out, given that the outflow must cover most of the continuum in order to be detected, the value of $\Omega$ has an approximate lower limit of $\Omega > 2\pi$. We show the predicted SB profiles for wind emission from our galaxies assuming  $\Omega = 2\pi$ with blue diamonds in Figure  \ref{fig.emission}.
 
-After reducing the SB of the expected \ion{Mg}{2} emission by the corresponding factor of 2, we predict profiles that fall below our SB detection limits for galaxies J.26 and J.36. However, the SB profile of J.64 remains above our SB detection limits, suggesting additional phenomena are needed to reduce the strength of scattered emission. Previously discussed in Section \ref{sec:results}, this object is the intrinsically brightest galaxy of our sample and exhibits the strong \ion{Mg}{2} absorption, which suggests a strong ISM component. \cite{Prochaska_2011} note that \ion{Mg}{2} photons can be more effectively trapped in objects with a large amount of dusty interstellar material.
+After reducing the SB of the expected \ion{Mg}{2} emission by the corresponding factor of 2, we predict profiles that fall below our SB detection limits for galaxies J.26 and J.36. However, the SB profile of J.64 remains above our SB detection limits, suggesting additional phenomena are needed to reduce the strength of scattered emission. Previously discussed in Section \ref{sec:results}, this object is the intrinsically brightest galaxy of our sample and exhibits the strong \ion{Mg}{2} absorption, which suggests a strong ISM component. \cite{Prochaska_2011} note that \ion{Mg}{2} photons can be more effectively trapped in objects with a large amount of dusty interstellar material. 
 
+\subsubsection{Anisotropic and Dusty Winds}
 
-\begin{table*}[]
-\centering
-\caption{Properties of \ion{Mg}{2}\ Absorption\label{tab:abs_props}}  
-\begin{tabular}{llllll} \hline \hline
-Object & Max(SB$_{abs}$)\footnote{SB Values are in units of $10^{-18}$ ergs sec $^{-1}$ cm$^{-2}$ arcsec$^2$} & $R_{\text{SB}_1}(kpc)$ &\ \ \ EW$_{\rm{obs}}$($\AA$)\footnote{ Measured from EW images} & EW$_{\rm{obs}}$($\AA$)\footnote{Measured from Keck/LRIS spectra}  \\  \hline
-J033225.26-274524.0 &  $-5.39 \pm 1.28 $ & 8 &     $\ \ \ 3.511 \pm 0.795$ & $7.539 \pm 0.354 $\\
-J033232.36-274725.0 &  $-5.64 \pm 0.121 $ & 15 & $\ \ \ 7.694 \pm 1.016$ & $5.835 \pm 0.493$\\
-J033230.03-274347.3 &  $-4.41 \pm 0.622 $ & 21 & $\ \ \ 5.388 \pm 0.712$ & $12.79 \pm 1.710$\\
-J033229.64-274242.5 &  $-18.2 \pm 0.127 $ & 10 & $\ \ \ 7.546 \pm 0.660$ & $13.24 \pm 0.263$\\
-J033230.57-274518.2 &  $-1.25 \pm 1.15   $ & 11& -$0.6532 \pm 0.589$ & $6.106 \pm 0.370$\\ \hline
-\end{tabular}
-\end{table*}
+Dust in the wind is another factor that can reduce the observed emission strength, and affect the shape of the line profile. 
+In the \cite{Prochaska_2011} radiative models that include dust in the wind material, the dominant effect is that the most redshifted emission is suppressed. The strength of the flux is reduced by a factor of $(1+\tau_{\rm{dust}})^{-1}$, where $\tau_{\rm{dust}}$ is the integrated opacity of dust. The green hexagons in Figure \ref{fig.emission} shows the predicted SB profile for an anisotropic wind with dust. As mentioned in the previous section, anisotropy alone does not reduce the predicted emission of J.64 below our detection limits. The profile in  Figure \ref{fig.emission} shows that combination of dust and anisotropy is sufficient in reducing the strength of the scattered emission below our detection limits. [ Unsure what to add next]
+
 
 
 \section{CONCLUSION}\label{sec:conclusion}
@@ -458,13 +452,15 @@ A new generation of instruments such as the Keck Cosmic Web Imager (KCWI) or the
 
 \begin{figure*}[h]
 \centering
-\gridline{\fig{../Figures/geo_J26.pdf}{0.5\textwidth}{(J033225.26)}
-          \fig{../Figures/geo_J36.pdf}{0.5\textwidth}{(J033231.36)}}
-\gridline{\fig{../Figures/geo_J03.pdf}{0.5\textwidth}{(J033230.03)}
-          \fig{../Figures/geo_J64.pdf}{0.5\textwidth}{(J033230.64)}}
-\caption{Estimated SB profile of \ion{Mg}{2} emission for isotropic and anisotropic dust-free winds. The black square points are SB of predicted \ion{Mg}{2} emission uniformly distributed inside an annulus for an angle $\Omega=4\pi$, or an isotropic wind. The blue diamond points are SB of missing \ion{Mg}{2} emission uniformly distributed inside an annulus for an angle $\Omega=2\pi$, or an anisotropic wind. The solid line shows the value of the SB detection limits. The dashed vertical and horizontal lines represent outer radius of the extended annulus used to measure the initial detection limits and the value of the SB detection limit in that annulus.}
+\gridline{\fig{../Figures/geo_J26.pdf}{0.5\textwidth}{(J.26)}
+          \fig{../Figures/geo_J36.pdf}{0.5\textwidth}{(J.36)}}
+\gridline{\fig{../Figures/geo_J03.pdf}{0.5\textwidth}{(J.03)}
+          \fig{../Figures/geo_J64.pdf}{0.5\textwidth}{(J.64)}}
+\caption{Estimated SB profile of \ion{Mg}{2} emission for isotropic and anisotropic dust-free winds. The black square points are SB of predicted \ion{Mg}{2} emission uniformly distributed inside an annulus for an angle $\Omega=4\pi$, or an isotropic wind. The blue diamond points are SB of missing \ion{Mg}{2} emission uniformly distributed inside an annulus for an angle $\Omega=2\pi$, or an anisotropic wind. The green hexagon points are SB of predicted emission for a wind that is isotropic and affected by dust. The solid line shows the value of the SB detection limits. The dashed vertical and horizontal lines represent outer radius of the extended annulus used to measure the initial detection limits and the value of the SB detection limit in that annulus.}
 \label{fig.emission}
 \end{figure*}
+
+
 
 \bibliography{references2017}
 

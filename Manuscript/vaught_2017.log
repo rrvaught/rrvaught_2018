@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JUL 2018 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JUL 2018 16:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -796,26 +796,41 @@ Class revtex4-1 Warning: Dequeueing of floats stalled.
 
 LaTeX Warning: A float is stuck (cannot be placed) on input line 338.
 
-[11 <../Figures/sigmas.pdf>] [12]
-<../Figures/limits.pdf, id=1323, 433.62pt x 289.08pt>
+[11 <../Figures/sigmas.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 368.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 372.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 372.
+
+
+Overfull \hbox (2.60455pt too wide) in paragraph at lines 371--379
+ []$[]$ 
+ []
+
+[12] <../Figures/limits.pdf, id=1327, 433.62pt x 289.08pt>
 File: ../Figures/limits.pdf Graphic file (type pdf)
 
 <use ../Figures/limits.pdf>
-Package pdftex.def Info: ../Figures/limits.pdf used on input line 382.
+Package pdftex.def Info: ../Figures/limits.pdf used on input line 390.
 (pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
 
-Overfull \hbox (17.90749pt too wide) in paragraph at lines 382--383
+Overfull \hbox (17.90749pt too wide) in paragraph at lines 390--391
  [][] 
  []
 
-<../Figures/mass_limits.pdf, id=1324, 433.62pt x 289.08pt>
+<../Figures/mass_limits.pdf, id=1328, 433.62pt x 289.08pt>
 File: ../Figures/mass_limits.pdf Graphic file (type pdf)
 
 <use ../Figures/mass_limits.pdf>
-Package pdftex.def Info: ../Figures/mass_limits.pdf used on input line 389.
+Package pdftex.def Info: ../Figures/mass_limits.pdf used on input line 397.
 (pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
 
-Overfull \hbox (17.90749pt too wide) in paragraph at lines 389--390
+Overfull \hbox (17.90749pt too wide) in paragraph at lines 397--398
  [][] 
  []
 
@@ -823,95 +838,84 @@ Overfull \hbox (17.90749pt too wide) in paragraph at lines 389--390
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/mass_limits.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 415.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 419.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 419.
-
-<../Figures/J26EW.pdf, id=1471, 435.38661pt x 136.29639pt>
+>] [14] <../Figures/J26EW.pdf, id=1491, 435.38661pt x 136.29639pt>
 File: ../Figures/J26EW.pdf Graphic file (type pdf)
 
 <use ../Figures/J26EW.pdf>
-Package pdftex.def Info: ../Figures/J26EW.pdf used on input line 443.
+Package pdftex.def Info: ../Figures/J26EW.pdf used on input line 437.
 (pdftex.def)             Requested size: 410.4955pt x 128.50543pt.
 
-<../Figures/J36EW.pdf, id=1472, 435.38661pt x 136.29639pt>
+<../Figures/J36EW.pdf, id=1492, 435.38661pt x 136.29639pt>
 File: ../Figures/J36EW.pdf Graphic file (type pdf)
 
 <use ../Figures/J36EW.pdf>
-Package pdftex.def Info: ../Figures/J36EW.pdf used on input line 444.
+Package pdftex.def Info: ../Figures/J36EW.pdf used on input line 438.
 (pdftex.def)             Requested size: 410.4955pt x 128.50543pt.
 
-<../Figures/J03EW.pdf, id=1473, 435.38661pt x 136.29639pt>
+<../Figures/J03EW.pdf, id=1493, 435.38661pt x 136.29639pt>
 File: ../Figures/J03EW.pdf Graphic file (type pdf)
 
 <use ../Figures/J03EW.pdf>
-Package pdftex.def Info: ../Figures/J03EW.pdf used on input line 445.
+Package pdftex.def Info: ../Figures/J03EW.pdf used on input line 439.
 (pdftex.def)             Requested size: 410.4955pt x 128.50543pt.
 
-<../Figures/J64EW.pdf, id=1474, 435.38661pt x 136.82149pt>
+<../Figures/J64EW.pdf, id=1494, 435.38661pt x 136.82149pt>
 File: ../Figures/J64EW.pdf Graphic file (type pdf)
 
 <use ../Figures/J64EW.pdf>
-Package pdftex.def Info: ../Figures/J64EW.pdf used on input line 446.
+Package pdftex.def Info: ../Figures/J64EW.pdf used on input line 440.
 (pdftex.def)             Requested size: 410.4955pt x 129.00052pt.
 
 
-LaTeX Warning: Float too large for page by 33.19792pt on input line 449.
+LaTeX Warning: Float too large for page by 33.19792pt on input line 443.
 
-<../Figures/ew_comb.pdf, id=1475, 433.62pt x 289.08pt>
+<../Figures/ew_comb.pdf, id=1495, 433.62pt x 289.08pt>
 File: ../Figures/ew_comb.pdf Graphic file (type pdf)
 
 <use ../Figures/ew_comb.pdf>
-Package pdftex.def Info: ../Figures/ew_comb.pdf used on input line 454.
+Package pdftex.def Info: ../Figures/ew_comb.pdf used on input line 448.
 (pdftex.def)             Requested size: 390.2544pt x 260.16959pt.
 
-<../Figures/geo_J26.pdf, id=1476, 433.62pt x 289.08pt>
+<../Figures/geo_J26.pdf, id=1496, 433.62pt x 289.08pt>
 File: ../Figures/geo_J26.pdf Graphic file (type pdf)
 
 <use ../Figures/geo_J26.pdf>
-Package pdftex.def Info: ../Figures/geo_J26.pdf used on input line 462.
+Package pdftex.def Info: ../Figures/geo_J26.pdf used on input line 456.
 (pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
 
-<../Figures/geo_J36.pdf, id=1477, 433.62pt x 289.08pt>
+<../Figures/geo_J36.pdf, id=1497, 433.62pt x 289.08pt>
 File: ../Figures/geo_J36.pdf Graphic file (type pdf)
 
 <use ../Figures/geo_J36.pdf>
-Package pdftex.def Info: ../Figures/geo_J36.pdf used on input line 462.
+Package pdftex.def Info: ../Figures/geo_J36.pdf used on input line 456.
 (pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
 
-Overfull \hbox (2.05554pt too wide) detected at line 462
+Overfull \hbox (2.05554pt too wide) detected at line 456
  []   [] 
  []
 
-<../Figures/geo_J03.pdf, id=1478, 433.62pt x 289.08pt>
+<../Figures/geo_J03.pdf, id=1498, 433.62pt x 289.08pt>
 File: ../Figures/geo_J03.pdf Graphic file (type pdf)
 
 <use ../Figures/geo_J03.pdf>
-Package pdftex.def Info: ../Figures/geo_J03.pdf used on input line 464.
+Package pdftex.def Info: ../Figures/geo_J03.pdf used on input line 458.
 (pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
 
-<../Figures/geo_J64.pdf, id=1479, 433.62pt x 289.08pt>
+<../Figures/geo_J64.pdf, id=1499, 433.62pt x 289.08pt>
 File: ../Figures/geo_J64.pdf Graphic file (type pdf)
 
 <use ../Figures/geo_J64.pdf>
-Package pdftex.def Info: ../Figures/geo_J64.pdf used on input line 464.
+Package pdftex.def Info: ../Figures/geo_J64.pdf used on input line 458.
 (pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
 
-Overfull \hbox (2.05554pt too wide) detected at line 464
+Overfull \hbox (2.05554pt too wide) detected at line 458
  []   [] 
  []
 
 
 Class revtex4-1 Warning: Float cannot be placed.
 
-(./vaught_2017.bbl [14] [15 <../Figures/J26EW.pdf> <../Figures/J36EW.pdf
+(./vaught_2017.bbl) [15] [16 <../Figures/J26EW.pdf> <../Figures/J36EW.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/J36EW.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
@@ -923,11 +927,8 @@ nclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/J64EW.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
->] [16 <../Figures/ew_comb.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 80.
-
-[17 <../Figures/geo_J26.pdf> <../Figures/geo_J36.pdf
+>] [17 <../Figures/ew_comb.pdf>] [18 <../Figures/geo_J26.pdf> <../Figures/geo_J
+36.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/geo_J36.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
@@ -939,24 +940,24 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/geo_J03.pdf): PDF
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/geo_J64.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->]) [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 471.
+>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
  (./vaught_2017.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 471.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 471.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 467.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 467.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9653 strings out of 493089
- 134620 string characters out of 6134842
- 308155 words of memory out of 5000000
- 12886 multiletter control sequences out of 15000+600000
+ 9654 strings out of 493089
+ 134656 string characters out of 6134842
+ 290828 words of memory out of 5000000
+ 12884 multiletter control sequences out of 15000+600000
  14394 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,37p,1600b,556s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,16n,37p,1600b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
@@ -969,22 +970,21 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti9.pfb>
-Output written on vaught_2017.pdf (18 pages, 2839994 bytes).
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on vaught_2017.pdf (18 pages, 2834774 bytes).
 PDF statistics:
- 2172 PDF objects out of 2487 (max. 8388607)
- 920 compressed objects within 10 object streams
- 114 named destinations out of 1000 (max. 500000)
+ 2177 PDF objects out of 2487 (max. 8388607)
+ 926 compressed objects within 10 object streams
+ 117 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
