@@ -26,6 +26,10 @@
   {Kacprzak}, {Martin}, {Cooke}, \& {Churchill}}]{Bouche2012}
 {Bouch{\'e}}, N., {Hohensee}, W., {Vargas}, R., {et~al.} 2012, \mnras, 426, 801
 
+\bibitem[{{Chen} {et~al.}(2010){Chen}, {Wild}, {Tinker}, {Gauthier}, {Helsby},
+  {Shectman}, \& {Thompson}}]{chen2010}
+{Chen}, H.-W., {Wild}, V., {Tinker}, J.~L., {et~al.} 2010, \apjl, 724, L176
+
 \bibitem[{{Chevalier} \& {Clegg}(1985)}]{Chevalier_1985}
 {Chevalier}, R.~A., \& {Clegg}, A.~W. 1985, \nat, 317, 44
 
@@ -129,12 +133,6 @@ Springel, V., \& Hernquist, L. 2003, \mnras, 339, 289
 \bibitem[{{Sugahara} {et~al.}(2017){Sugahara}, {Ouchi}, {Lin}, {Martin}, {Ono},
   {Harikane}, {Shibuya}, \& {Yan}}]{Sugahara_2017}
 {Sugahara}, Y., {Ouchi}, M., {Lin}, L., {et~al.} 2017, \apj, 850, 51
-
-\bibitem[{{Tripp} {et~al.}(2011){Tripp}, {Meiring}, {Prochaska}, {Willmer},
-  {Howk}, {Werk}, {Jenkins}, {Bowen}, {Lehner}, {Sembach}, {Thom}, \&
-  {Tumlinson}}]{Tripp2011}
-{Tripp}, T.~M., {Meiring}, J.~D., {Prochaska}, J.~X., {et~al.} 2011, Science,
-  334, 952
 
 \bibitem[{{van Dokkum}(2001)}]{Dokkum2001}
 {van Dokkum}, P.~G. 2001, \pasp, 113, 1420

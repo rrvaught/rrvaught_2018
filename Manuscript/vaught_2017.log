@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUL 2018 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 JUL 2018 08:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -552,79 +552,79 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 
-<../Figures/fors2_color_imstamps.pdf, id=131, 619.18007pt x 126.4982pt>
+<../Figures/fors2_color_imstamps.pdf, id=139, 619.18007pt x 126.4982pt>
 File: ../Figures/fors2_color_imstamps.pdf Graphic file (type pdf)
 
 <use ../Figures/fors2_color_imstamps.pdf>
 Package pdftex.def Info: ../Figures/fors2_color_imstamps.pdf used on input line
- 106.
+ 96.
 (pdftex.def)             Requested size: 464.3839pt x 94.8734pt.
 
-<../Figures/filt_26_spectra.pdf, id=136, 433.62pt x 289.08pt>
+<../Figures/filt_26_spectra.pdf, id=144, 433.62pt x 289.08pt>
 File: ../Figures/filt_26_spectra.pdf Graphic file (type pdf)
 
 <use ../Figures/filt_26_spectra.pdf>
-Package pdftex.def Info: ../Figures/filt_26_spectra.pdf used on input line 113.
+Package pdftex.def Info: ../Figures/filt_26_spectra.pdf used on input line 103.
 
 (pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
 
-<../Figures/filt_36_spectra.pdf, id=137, 433.62pt x 289.08pt>
+<../Figures/filt_36_spectra.pdf, id=145, 433.62pt x 289.08pt>
 File: ../Figures/filt_36_spectra.pdf Graphic file (type pdf)
 
 <use ../Figures/filt_36_spectra.pdf>
-Package pdftex.def Info: ../Figures/filt_36_spectra.pdf used on input line 113.
+Package pdftex.def Info: ../Figures/filt_36_spectra.pdf used on input line 103.
 
 (pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
 
-Overfull \hbox (2.05554pt too wide) detected at line 113
+Overfull \hbox (2.05554pt too wide) detected at line 103
  []   [] 
  []
 
-<../Figures/filt_03_spectra.pdf, id=138, 433.62pt x 289.08pt>
+<../Figures/filt_03_spectra.pdf, id=146, 433.62pt x 289.08pt>
 File: ../Figures/filt_03_spectra.pdf Graphic file (type pdf)
 
 <use ../Figures/filt_03_spectra.pdf>
-Package pdftex.def Info: ../Figures/filt_03_spectra.pdf used on input line 115.
+Package pdftex.def Info: ../Figures/filt_03_spectra.pdf used on input line 105.
 
 (pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
 
-<../Figures/filt_64_spectra.pdf, id=139, 433.62pt x 289.08pt>
+<../Figures/filt_64_spectra.pdf, id=147, 433.62pt x 289.08pt>
 File: ../Figures/filt_64_spectra.pdf Graphic file (type pdf)
 
 <use ../Figures/filt_64_spectra.pdf>
-Package pdftex.def Info: ../Figures/filt_64_spectra.pdf used on input line 115.
+Package pdftex.def Info: ../Figures/filt_64_spectra.pdf used on input line 105.
 
 (pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
 
-Overfull \hbox (2.05554pt too wide) detected at line 115
+Overfull \hbox (2.05554pt too wide) detected at line 105
  []   [] 
  []
 
-<../Figures/filt_57_spectra.pdf, id=140, 433.62pt x 289.08pt>
+<../Figures/filt_57_spectra.pdf, id=148, 433.62pt x 289.08pt>
 File: ../Figures/filt_57_spectra.pdf Graphic file (type pdf)
 
 <use ../Figures/filt_57_spectra.pdf>
-Package pdftex.def Info: ../Figures/filt_57_spectra.pdf used on input line 116.
+Package pdftex.def Info: ../Figures/filt_57_spectra.pdf used on input line 106.
 
 (pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
 
 
 Class revtex4-1 Warning: Float cannot be placed.
 
-<../Figures/avg_seeing_HEII.pdf, id=141, 433.62pt x 289.08pt>
+<../Figures/avg_seeing_HEII.pdf, id=149, 433.62pt x 289.08pt>
 File: ../Figures/avg_seeing_HEII.pdf Graphic file (type pdf)
 
 <use ../Figures/avg_seeing_HEII.pdf>
-Package pdftex.def Info: ../Figures/avg_seeing_HEII.pdf used on input line 123.
+Package pdftex.def Info: ../Figures/avg_seeing_HEII.pdf used on input line 113.
 
 (pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
 
-<../Figures/avg_seeing_HEII3000.pdf, id=142, 433.62pt x 289.08pt>
+<../Figures/avg_seeing_HEII3000.pdf, id=150, 433.62pt x 289.08pt>
 File: ../Figures/avg_seeing_HEII3000.pdf Graphic file (type pdf)
 
 <use ../Figures/avg_seeing_HEII3000.pdf>
 Package pdftex.def Info: ../Figures/avg_seeing_HEII3000.pdf used on input line 
-124.
+114.
 (pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
 
 
@@ -633,22 +633,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] <../Figures/HEII_final.png, id=191, 693.59125pt x 394.47375pt>
+[3] <../Figures/HEII_final.png, id=200, 693.59125pt x 394.47375pt>
 File: ../Figures/HEII_final.png Graphic file (type png)
 
 <use ../Figures/HEII_final.png>
-Package pdftex.def Info: ../Figures/HEII_final.png used on input line 197.
+Package pdftex.def Info: ../Figures/HEII_final.png used on input line 187.
 (pdftex.def)             Requested size: 423.09004pt x 240.62863pt.
 
-<../Figures/HEII3000_final.png, id=193, 691.58376pt x 393.47pt>
+<../Figures/HEII3000_final.png, id=202, 691.58376pt x 393.47pt>
 File: ../Figures/HEII3000_final.png Graphic file (type png)
 
 <use ../Figures/HEII3000_final.png>
-Package pdftex.def Info: ../Figures/HEII3000_final.png used on input line 198.
+Package pdftex.def Info: ../Figures/HEII3000_final.png used on input line 188.
 (pdftex.def)             Requested size: 421.86548pt x 240.01634pt.
  [4 <../Figures/fors2_color_imstamps.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 206.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 196.
 
 [5 <../Figures/filt_26_spectra.pdf> <../Figures/filt_36_spectra.pdf
 
@@ -668,73 +668,73 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/filt_57_spectra.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 206.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 196.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<../Figures/stamps.pdf, id=621, 592.14977pt x 305.05782pt>
+<../Figures/stamps.pdf, id=636, 592.14977pt x 305.05782pt>
 File: ../Figures/stamps.pdf Graphic file (type pdf)
 
 <use ../Figures/stamps.pdf>
-Package pdftex.def Info: ../Figures/stamps.pdf used on input line 227.
+Package pdftex.def Info: ../Figures/stamps.pdf used on input line 217.
 (pdftex.def)             Requested size: 414.502pt x 213.539pt.
- <../Figures/J_26.pdf, id=625, 433.62pt x 289.08pt>
-File: ../Figures/J_26.pdf Graphic file (type pdf)
-
-<use ../Figures/J_26.pdf>
-Package pdftex.def Info: ../Figures/J_26.pdf used on input line 242.
-(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
- <../Figures/J_36.pdf, id=626, 433.62pt x 289.08pt>
-File: ../Figures/J_36.pdf Graphic file (type pdf)
-
-<use ../Figures/J_36.pdf>
-Package pdftex.def Info: ../Figures/J_36.pdf used on input line 242.
-(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
-
-Overfull \hbox (2.05554pt too wide) detected at line 242
- []   [] 
- []
-
-<../Figures/J_03.pdf, id=627, 433.62pt x 289.08pt>
-File: ../Figures/J_03.pdf Graphic file (type pdf)
- <use ../Figures/J_03.pdf>
-Package pdftex.def Info: ../Figures/J_03.pdf used on input line 244.
-(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
-
-<../Figures/J_64.pdf, id=628, 433.62pt x 289.08pt>
-File: ../Figures/J_64.pdf Graphic file (type pdf)
- <use ../Figures/J_64.pdf>
-Package pdftex.def Info: ../Figures/J_64.pdf used on input line 244.
-(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
-
-Overfull \hbox (2.05554pt too wide) detected at line 244
- []   [] 
- []
-
-<../Figures/J_57.pdf, id=629, 433.62pt x 289.08pt>
-File: ../Figures/J_57.pdf Graphic file (type pdf)
- <use ../Figures/J_57.pdf>
-Package pdftex.def Info: ../Figures/J_57.pdf used on input line 245.
-(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
-
-
-LaTeX Warning: Float too large for page by 1.81711pt on input line 248.
-
-[6 <../Figures/avg_seeing_HEII.pdf> <../Figures/avg_seeing_HEII3000.pdf
+ [6 <../Figures/avg_seeing_HEII.pdf> <../Figures/avg_seeing_HEII3000.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/avg_seeing_HEII30
 00.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 
->] [7 <../Figures/HEII_final.png> <../Figures/HEII3000_final.png>]
-<../Figures/hist_sblim.pdf, id=727, 433.62pt x 289.08pt>
+>] <../Figures/J_26.pdf, id=729, 433.62pt x 289.08pt>
+File: ../Figures/J_26.pdf Graphic file (type pdf)
+
+<use ../Figures/J_26.pdf>
+Package pdftex.def Info: ../Figures/J_26.pdf used on input line 231.
+(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
+ <../Figures/J_36.pdf, id=730, 433.62pt x 289.08pt>
+File: ../Figures/J_36.pdf Graphic file (type pdf)
+
+<use ../Figures/J_36.pdf>
+Package pdftex.def Info: ../Figures/J_36.pdf used on input line 231.
+(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
+
+Overfull \hbox (2.05554pt too wide) detected at line 231
+ []   [] 
+ []
+
+<../Figures/J_03.pdf, id=731, 433.62pt x 289.08pt>
+File: ../Figures/J_03.pdf Graphic file (type pdf)
+ <use ../Figures/J_03.pdf>
+Package pdftex.def Info: ../Figures/J_03.pdf used on input line 233.
+(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
+
+<../Figures/J_64.pdf, id=732, 433.62pt x 289.08pt>
+File: ../Figures/J_64.pdf Graphic file (type pdf)
+ <use ../Figures/J_64.pdf>
+Package pdftex.def Info: ../Figures/J_64.pdf used on input line 233.
+(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
+
+Overfull \hbox (2.05554pt too wide) detected at line 233
+ []   [] 
+ []
+
+<../Figures/J_57.pdf, id=733, 433.62pt x 289.08pt>
+File: ../Figures/J_57.pdf Graphic file (type pdf)
+ <use ../Figures/J_57.pdf>
+Package pdftex.def Info: ../Figures/J_57.pdf used on input line 234.
+(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
+
+
+LaTeX Warning: Float too large for page by 1.81711pt on input line 237.
+
+[7 <../Figures/HEII_final.png> <../Figures/HEII3000_final.png>]
+<../Figures/hist_sblim.pdf, id=747, 433.62pt x 289.08pt>
 File: ../Figures/hist_sblim.pdf Graphic file (type pdf)
 
 <use ../Figures/hist_sblim.pdf>
-Package pdftex.def Info: ../Figures/hist_sblim.pdf used on input line 261.
+Package pdftex.def Info: ../Figures/hist_sblim.pdf used on input line 250.
 (pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
 
-Overfull \hbox (17.90749pt too wide) in paragraph at lines 261--262
+Overfull \hbox (17.90749pt too wide) in paragraph at lines 250--251
  [][] 
  []
 
@@ -756,147 +756,67 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/J_57.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 285.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 272.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 285.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 272.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<../Figures/sigmas.pdf, id=1129, 361.10785pt x 305.13687pt>
+<../Figures/sigmas.pdf, id=1183, 361.10785pt x 305.13687pt>
 File: ../Figures/sigmas.pdf Graphic file (type pdf)
 
 <use ../Figures/sigmas.pdf>
-Package pdftex.def Info: ../Figures/sigmas.pdf used on input line 304.
+Package pdftex.def Info: ../Figures/sigmas.pdf used on input line 293.
 (pdftex.def)             Requested size: 433.32724pt x 366.16241pt.
- [10 <../Figures/hist_sblim.pdf>]
+
+<../Figures/J26EW.pdf, id=1188, 435.38661pt x 135.38673pt>
+File: ../Figures/J26EW.pdf Graphic file (type pdf)
+
+<use ../Figures/J26EW.pdf>
+Package pdftex.def Info: ../Figures/J26EW.pdf used on input line 326.
+(pdftex.def)             Requested size: 410.4955pt x 127.64778pt.
+
+<../Figures/J36EW.pdf, id=1189, 435.38661pt x 136.29639pt>
+File: ../Figures/J36EW.pdf Graphic file (type pdf)
+
+<use ../Figures/J36EW.pdf>
+Package pdftex.def Info: ../Figures/J36EW.pdf used on input line 327.
+(pdftex.def)             Requested size: 410.4955pt x 128.50543pt.
+
+<../Figures/J03EW.pdf, id=1190, 435.38661pt x 135.38673pt>
+File: ../Figures/J03EW.pdf Graphic file (type pdf)
+
+<use ../Figures/J03EW.pdf>
+Package pdftex.def Info: ../Figures/J03EW.pdf used on input line 328.
+(pdftex.def)             Requested size: 410.4955pt x 127.64778pt.
+
+<../Figures/J64EW.pdf, id=1191, 435.38661pt x 135.91183pt>
+File: ../Figures/J64EW.pdf Graphic file (type pdf)
+
+<use ../Figures/J64EW.pdf>
+Package pdftex.def Info: ../Figures/J64EW.pdf used on input line 329.
+(pdftex.def)             Requested size: 410.4955pt x 128.14285pt.
+
+
+LaTeX Warning: Float too large for page by 32.37495pt on input line 332.
+
+[10 <../Figures/hist_sblim.pdf>]
 
 Class revtex4-1 Warning: Dequeueing of floats stalled.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 337.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 335.
 
-[11 <../Figures/sigmas.pdf>] [12]
+[11 <../Figures/sigmas.pdf>]
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 368.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 372.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 335.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 372.
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-
-Overfull \hbox (2.60455pt too wide) in paragraph at lines 371--379
- []$[]$ 
- []
-
-<../Figures/limits.pdf, id=1354, 433.62pt x 289.08pt>
-File: ../Figures/limits.pdf Graphic file (type pdf)
-
-<use ../Figures/limits.pdf>
-Package pdftex.def Info: ../Figures/limits.pdf used on input line 390.
-(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
-
-Overfull \hbox (17.90749pt too wide) in paragraph at lines 390--391
- [][] 
- []
-
-<../Figures/mass_limits.pdf, id=1355, 433.62pt x 289.08pt>
-File: ../Figures/mass_limits.pdf Graphic file (type pdf)
-
-<use ../Figures/mass_limits.pdf>
-Package pdftex.def Info: ../Figures/mass_limits.pdf used on input line 397.
-(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
-
-Overfull \hbox (17.90749pt too wide) in paragraph at lines 397--398
- [][] 
- []
-
-[13 <../Figures/limits.pdf> <../Figures/mass_limits.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/mass_limits.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
->] [14] <../Figures/J26EW.pdf, id=1530, 435.38661pt x 136.29639pt>
-File: ../Figures/J26EW.pdf Graphic file (type pdf)
-
-<use ../Figures/J26EW.pdf>
-Package pdftex.def Info: ../Figures/J26EW.pdf used on input line 432.
-(pdftex.def)             Requested size: 410.4955pt x 128.50543pt.
-
-<../Figures/J36EW.pdf, id=1531, 435.38661pt x 136.29639pt>
-File: ../Figures/J36EW.pdf Graphic file (type pdf)
-
-<use ../Figures/J36EW.pdf>
-Package pdftex.def Info: ../Figures/J36EW.pdf used on input line 433.
-(pdftex.def)             Requested size: 410.4955pt x 128.50543pt.
-
-<../Figures/J03EW.pdf, id=1532, 435.38661pt x 136.29639pt>
-File: ../Figures/J03EW.pdf Graphic file (type pdf)
-
-<use ../Figures/J03EW.pdf>
-Package pdftex.def Info: ../Figures/J03EW.pdf used on input line 434.
-(pdftex.def)             Requested size: 410.4955pt x 128.50543pt.
-
-<../Figures/J64EW.pdf, id=1533, 435.38661pt x 136.82149pt>
-File: ../Figures/J64EW.pdf Graphic file (type pdf)
-
-<use ../Figures/J64EW.pdf>
-Package pdftex.def Info: ../Figures/J64EW.pdf used on input line 435.
-(pdftex.def)             Requested size: 410.4955pt x 129.00052pt.
-
-
-LaTeX Warning: Float too large for page by 33.19792pt on input line 438.
-
-<../Figures/ew_comb.pdf, id=1534, 433.62pt x 289.08pt>
-File: ../Figures/ew_comb.pdf Graphic file (type pdf)
-
-<use ../Figures/ew_comb.pdf>
-Package pdftex.def Info: ../Figures/ew_comb.pdf used on input line 443.
-(pdftex.def)             Requested size: 390.2544pt x 260.16959pt.
-
-<../Figures/geo_J26.pdf, id=1535, 433.62pt x 289.08pt>
-File: ../Figures/geo_J26.pdf Graphic file (type pdf)
-
-<use ../Figures/geo_J26.pdf>
-Package pdftex.def Info: ../Figures/geo_J26.pdf used on input line 451.
-(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
-
-<../Figures/geo_J36.pdf, id=1536, 433.62pt x 289.08pt>
-File: ../Figures/geo_J36.pdf Graphic file (type pdf)
-
-<use ../Figures/geo_J36.pdf>
-Package pdftex.def Info: ../Figures/geo_J36.pdf used on input line 451.
-(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
-
-Overfull \hbox (2.05554pt too wide) detected at line 451
- []   [] 
- []
-
-<../Figures/geo_J03.pdf, id=1537, 433.62pt x 289.08pt>
-File: ../Figures/geo_J03.pdf Graphic file (type pdf)
-
-<use ../Figures/geo_J03.pdf>
-Package pdftex.def Info: ../Figures/geo_J03.pdf used on input line 453.
-(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
-
-<../Figures/geo_J64.pdf, id=1538, 433.62pt x 289.08pt>
-File: ../Figures/geo_J64.pdf Graphic file (type pdf)
-
-<use ../Figures/geo_J64.pdf>
-Package pdftex.def Info: ../Figures/geo_J64.pdf used on input line 453.
-(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
-
-Overfull \hbox (2.05554pt too wide) detected at line 453
- []   [] 
- []
-
-
-Class revtex4-1 Warning: Float cannot be placed.
-
-(./vaught_2017.bbl) [15] [16 <../Figures/J26EW.pdf> <../Figures/J36EW.pdf
+[12 <../Figures/J26EW.pdf> <../Figures/J36EW.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/J36EW.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
@@ -908,8 +828,96 @@ nclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/J64EW.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
->] [17 <../Figures/ew_comb.pdf>] [18 <../Figures/geo_J26.pdf> <../Figures/geo_J
-36.pdf
+>] [13]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 364.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 368.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 368.
+
+
+Overfull \hbox (18.70285pt too wide) in paragraph at lines 367--375
+ []$[]$ 
+ []
+
+<../Figures/limits.pdf, id=1663, 433.62pt x 289.08pt>
+File: ../Figures/limits.pdf Graphic file (type pdf)
+
+<use ../Figures/limits.pdf>
+Package pdftex.def Info: ../Figures/limits.pdf used on input line 386.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+
+Overfull \hbox (17.90749pt too wide) in paragraph at lines 386--387
+ [][] 
+ []
+
+<../Figures/mass_limits.pdf, id=1664, 433.62pt x 289.08pt>
+File: ../Figures/mass_limits.pdf Graphic file (type pdf)
+
+<use ../Figures/mass_limits.pdf>
+Package pdftex.def Info: ../Figures/mass_limits.pdf used on input line 393.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+
+Overfull \hbox (17.90749pt too wide) in paragraph at lines 393--394
+ [][] 
+ []
+
+[14 <../Figures/limits.pdf> <../Figures/mass_limits.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/mass_limits.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>] [15] <../Figures/ew_comb.pdf, id=1862, 433.62pt x 289.08pt>
+File: ../Figures/ew_comb.pdf Graphic file (type pdf)
+
+<use ../Figures/ew_comb.pdf>
+Package pdftex.def Info: ../Figures/ew_comb.pdf used on input line 428.
+(pdftex.def)             Requested size: 390.2544pt x 260.16959pt.
+
+<../Figures/geo_J26.pdf, id=1865, 433.62pt x 289.08pt>
+File: ../Figures/geo_J26.pdf Graphic file (type pdf)
+
+<use ../Figures/geo_J26.pdf>
+Package pdftex.def Info: ../Figures/geo_J26.pdf used on input line 436.
+(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
+
+<../Figures/geo_J36.pdf, id=1866, 433.62pt x 289.08pt>
+File: ../Figures/geo_J36.pdf Graphic file (type pdf)
+
+<use ../Figures/geo_J36.pdf>
+Package pdftex.def Info: ../Figures/geo_J36.pdf used on input line 436.
+(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
+
+Overfull \hbox (2.05554pt too wide) detected at line 436
+ []   [] 
+ []
+
+<../Figures/geo_J03.pdf, id=1867, 433.62pt x 289.08pt>
+File: ../Figures/geo_J03.pdf Graphic file (type pdf)
+
+<use ../Figures/geo_J03.pdf>
+Package pdftex.def Info: ../Figures/geo_J03.pdf used on input line 438.
+(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
+
+<../Figures/geo_J64.pdf, id=1868, 433.62pt x 289.08pt>
+File: ../Figures/geo_J64.pdf Graphic file (type pdf)
+
+<use ../Figures/geo_J64.pdf>
+Package pdftex.def Info: ../Figures/geo_J64.pdf used on input line 438.
+(pdftex.def)             Requested size: 256.55872pt x 171.04533pt.
+
+Overfull \hbox (2.05554pt too wide) detected at line 438
+ []   [] 
+ []
+
+
+Class revtex4-1 Warning: Float cannot be placed.
+
+(./vaught_2017.bbl) [16] [17 <../Figures/ew_comb.pdf>] [18 <../Figures/geo_J26.
+pdf> <../Figures/geo_J36.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/geo_J36.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
@@ -922,19 +930,19 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/geo_J03.pdf): PDF
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Figures/geo_J64.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 462.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 447.
  (./vaught_2017.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 462.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 462.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 447.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 447.
  ) 
 Here is how much of TeX's memory you used:
- 9675 strings out of 493089
- 135072 string characters out of 6134842
- 296777 words of memory out of 5000000
- 12901 multiletter control sequences out of 15000+600000
+ 9674 strings out of 493089
+ 135057 string characters out of 6134842
+ 294733 words of memory out of 5000000
+ 12900 multiletter control sequences out of 15000+600000
  14086 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,16n,37p,1613b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,37p,1519b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
@@ -956,11 +964,12 @@ dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on vaught_2017.pdf (18 pages, 2781744 bytes).
+nts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on vaught_2017.pdf (18 pages, 2835184 bytes).
 PDF statistics:
- 2163 PDF objects out of 2487 (max. 8388607)
- 975 compressed objects within 10 object streams
+ 2280 PDF objects out of 2487 (max. 8388607)
+ 991 compressed objects within 10 object streams
  122 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
