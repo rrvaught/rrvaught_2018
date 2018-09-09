@@ -171,16 +171,18 @@ HeII/3000+48 (Cont.) & 4722.46  & 44.82 & 38  & 36,937 & 2.40  \\
 \tablenotetext{c}{Total number of images.}
 \tablenotetext{d}{Total exposure time.}
 \tablenotetext{e}{S, the sensitivity of the filter, is in units of $10^{-17}$ ergs counts$^{-1}$ cm$^{-2}$.}
-\end{deluxetable}
+\end{deluxetable}\ 
+\\
 
 
 \subsection{Absolute Flux Calibration}
-We acquired observations of the standard star GD50 from archival ESO calibration imaging at 4 independent epochs. Performing aperture photometry at each epoch and airmass, we calculated the atmospheric extinction coefficients, $k$, to be 0.181 magnitudes for the HeII/3000+48 filter and 0.190 magnitudes for the HeII+47 filter. We perform absolute flux calibration using the methods of \cite{Jacoby1987}. We first convolve the spectral energy distribution of the standard star, $F(\lambda)$ in ergs sec$^{-1}$ \AA$^{-1}$ cm$^{-2}$, with that of the known transmission curve of the filter, $T_{i}(\lambda)$. This yields $F_i$, the total observable flux in each bandpass filter $i$ with units of ergs sec$^{-1}$ cm$^{-2}$:
+We acquired observations of the standard star GD50 from archival European Southern Observatory (ESO) calibration imaging at 4 independent epochs. Performing aperture photometry at each epoch and airmass, we calculated the atmospheric extinction coefficients, $k$, to be 0.181 magnitudes for the HeII/3000+48 filter and 0.190 magnitudes for the HeII+47 filter. 
+We perform absolute flux calibration using the methods of \cite{Jacoby1987}. We first convolve the spectral energy distribution of the standard star, $F(\lambda)$ in ergs sec$^{-1}$ \AA$^{-1}$ cm$^{-2}$, with that of the known transmission curve of the filter, $T_{i}(\lambda)$. This yields $F_i$, the total observable flux in each bandpass filter $i$ with units of ergs sec$^{-1}$ cm$^{-2}$:
 \begin{equation*}
 F_{i}=\int F(\lambda)T_{i}(\lambda)d\lambda.
 \end{equation*}
 It is not uncommon to assume that $F(\lambda)$ is constant over the small width of the filter. 
-However, since our filter transmission curves are sampled at wavelengths similar to sampling of the spectrum of GD50 from the the CALSPEC library \citep{Bohlin2017}, we interpolate both spectra and compute the integral without the constant $F(\lambda)$ assumption . 
+However, since our filter transmission curves are sampled at wavelengths similar to sampling of the spectrum of GD50 from the latest CALSPEC spectral library \citep{Bohlin2017}, we interpolate both spectra and compute the integral without the above assumption . 
 The conversion from count rate to flux units for each filter is then given by
 \begin{equation*}
 S_{i}=\dfrac{F_{i}}{C10^{k_{i}A}},
@@ -232,7 +234,7 @@ where $F_{\rm{MgII}}$ and $\Delta \lambda_{\rm MgII}$ are the observed flux per 
 %   We detail below the resulting surface brightness profiles (Section~\ref{sec.sb}) and detection limits (Section \ref{subsec:test}) as well at the EW$_{\rm{MgII}}$ generated from these data (Section~\ref{subsec.ew}).
 
 \subsection{Surface Brightness Profiles and Limits}\label{sec.sb}
-To test for the presence of \ion{Mg}{2} emission, we perform aperture photometry on the continuum-subtracted images using the python library \emph{Photutils}. We choose annuli with a radial thickness of 1 pixel or $0.25 ''$, such that $r_{inner}=r_{outer}-1$ (in pixels). Each annulus is centered on the flux-weighted centroid of the galaxy. By dividing the summed flux in each annulus by the area in arcseconds we produce surface brightness (SB) profiles for each galaxy. These profiles are shown in Figure \ref{fig:sb_profiles}. 
+To test for the presence of \ion{Mg}{2} emission, we perform aperture photometry on the continuum-subtracted images using the python library \emph{Photutils}. We choose annuli with a radial thickness of 1 pixel or $0.25 ''$, such that the inner radius is, $r_{inner}=r_{outer}-1$ (in pixels). Each annulus is centered on the flux-weighted centroid of the galaxy. By dividing the summed flux in each annulus by the area in arcseconds we produce surface brightness (SB) profiles for each galaxy. These profiles are shown in Figure \ref{fig:sb_profiles}. 
 
 \begin{figure*}
 \centering
@@ -248,7 +250,7 @@ To test for the presence of \ion{Mg}{2} emission, we perform aperture photometry
 The error in the SB is determined from the stacked RMS images of each object.  We adopt annuli that are identical to the annuli used to find the SB profiles for each galaxy. To calculate the variance inside each annulus, we sum the RMS pixel values in quadrature, then divide by the area of each annulus. 
 
 To calculate the $1\sigma$ SB limit we follow the procedure of \cite{Battaia_2015}. We first mask out all the sources, their associated extended halos, and edge noise in both the HeII+47 and HeII/3000+48 images. We then calculate the RMS of the background in randomly-placed $1\arcsec$ apertures. We convert these RMS values to SB limits per $1~\rm arcsec^2$  aperture. We find that the 1$\sigma$ detection limits (SB$_1$) are $6.332\times10^{-19}$ ergs sec $^{-1}$ cm$^{-2}$ arcsec$^2$ and $5.808\times10^{-19} $ ergs sec $^{-1}$ cm$^{-2}$ arcsec$^2$ in the HeII/3000+48 and HeII+47 filters, respectively. 
-With the 1$\sigma$ detection limit, SB$_1$, determined for the continuum+\ion{Mg}{2} (HeII+47) image, we define a thicker (or ``extended") annulus to be used to search for any extended \ion{Mg}{2} emission. This annulus will have an inner radius approximately the size of the SB$_1$ isophotal contour for each galaxy. The outer radius is chosen to be the inner radius plus 5 pixels. With this larger annulus, we can average any flux over large areas to reach lower SB. The mean radii of these extended apertures are 18, 18, 24 and 21 kpc from the centers of the targets J.26, J.36, J.03 and J.64, respectively. The resulting SB measurements are shown in Figure~\ref{fig:sb_profiles}.
+With the 1$\sigma$ detection limit, SB$_1$, determined for the continuum+\ion{Mg}{2} (HeII+47) image, we define a thicker (or ``extended") annulus to be used to search for any extended \ion{Mg}{2} emission. This annulus will have an inner radius approximately the size of the SB$_1$ isophotal contour for each galaxy. The outer radius is chosen to be the inner radius plus 5 pixels. With this larger annulus, we can average any flux over large areas to reach lower values of SB. The mean radii of these extended apertures are 18, 18, 24 and 14 kpc from the centers of the targets J.26, J.36, J.03 and J.64, respectively. The resulting SB measurements are shown in Figure~\ref{fig:sb_profiles}.
 
 In the case of perfect sky subtraction and continuum subtraction, the 1$\sigma$ SB limit for an extended source is $SB_{1}/\sqrt{A_\text{src}}$, where $A_\text{src}$ is the area in arcsec$^2$ and $SB_{1}$ is the surface brightness limit per 1 arcsec$^2$ aperture. However, our actual detection limits are altered by systematic error from imperfect subtraction. Therefore, we determine the limits as follows. 
 We first mask all the artifacts and sources in the continuum-subtracted images. Next, we generate many apertures with sizes similar to our extended annulus ($\sim 20 \rm\ sq.arcsec$), place them at random, and extract the fluxes, $F_{\text{src}}$, within these apertures. We then normalize the values of $F_{\text{src}}$ by dividing by $\sigma_{\text{src}}$, where $\sigma_{\text{src}} \equiv SB_{1}\sqrt{A_\text{src}}$. For perfect sky subtraction and continuum subtraction, the distribution of extracted fluxes should follow a Gaussian distribution with a variance equal to $\sigma_{\text{src}}$. The distribution of $F_{\text{src}}/\sigma_{\text{src}}$ for these apertures is shown in Figure \ref{fig:limits}
@@ -281,9 +283,9 @@ J033230.57-274518.2 &  -2.53 (-1.00) & 6.81 &18 \\
 \subsection{Test of Surface Brightness Limits}\label{subsec:test}
 To show that \ion{Mg}{2} emission with SB strengths comparable to our limits can be detected in our narrowband imaging, we simulate emission with varying intensities of SB$_{\text{limit}}$. For each galaxy, we assign our simulated emission a constant surface brightness corresponding to 1, 3, 5, 10 and 20 times the $1\sigma$ SB$_{\text{limit}}$ inside the largest annulus used (i.e., the extended annulus). We assume Gaussian noise with 1$\sigma$ equal to 1SB$_{\text{limit}}$. Next, we subtract the continuum in the same manner as explained in Section \ref{subsec.cont_sub}. 
 
-To aid in identifying the presence and detectability of extended \ion{Mg}{2} emission, we construct a $\chi_{\text{smooth}}$, for each level of simulated emission, following the techniques in \cite{Hennawi2013} and \cite{Battaia_2015}.
+To aid in identifying the presence and detectability of extended \ion{Mg}{2} emission we construct a $\chi_{\text{smooth}}$ image for each level of simulated emission following the technique described in \cite{Hennawi2013} and \cite{Battaia_2015}.
 
-To construct this smoothed image, we first performed the following operation on a continuum-subtracted image:
+To construct the set of smoothed images, we first performed the following operation on the continuum-subtracted images:
 \begin{equation}
 I_{\text{smooth}}= \text{CONVOLVE[line-continuum]},
 \end{equation}
@@ -291,10 +293,10 @@ where the CONVOLVE operation indicates convolution of the \ion{Mg}{2} images wit
 \begin{equation}
 \sigma_{\text{smooth}}=\sqrt{\text{CONVOLVE}^2[\sigma^2]},
 \end{equation}
-where the CONVOLVE$^2$ operation indicates convolution of the image with the square of the Gaussian kernel. The smoothed $\chi$ image is then the product of the data image divided by the sigma image.
-\begin{equation}
-\chi_{\text{smooth}}=\frac{I_{\text{smooth}}}{\sigma_{\text{smooth}}}.
-\end{equation}
+where the CONVOLVE$^2$ operation indicates convolution of the image with the square of the Gaussian kernel. The smoothed $\chi$ image, $\chi_{\text{smooth}}$, is then the product of the smoothed line image, $I_{\text{smooth}}$, divided by the sigma image, $\sigma_{\text{smooth}}$.
+%\begin{equation}
+%\chi_{\text{smooth}}=\frac{I_{\text{smooth}}}{\sigma_{\text{smooth}}}.
+%\end{equation}
 
 Figure \ref{fig:sigmas} shows the $\chi_{\text{smooth}}$ images for the 5 levels of simulated \ion{Mg}{2} emission. We also include the $\chi_{\text{smooth}}$ image of each galaxy without any simulated emission (in the left-most column). The galaxies are outlined by a black isophotal contour corresponding to 1SB$_1$ and the simulated emission is contained inside the extended annulus surrounding each contour. The  $\chi_{\text{smooth}}$ images confirm that we should be able to detect extended \ion{Mg}{2} emission down to a conservative level of 5SB$_{\text{limit}}$. 
 
@@ -355,7 +357,7 @@ To assess the morphology of the \ion{Mg}{2} absorption, we determine the project
 \section{Results}\label{sec:results}
 
 \subsection{Limits on \ion{Mg}{2} Emission}
-For our sample of galaxies, we are sensitive to extended emission in annuli at projected distances of 18, 18, 24 and 14 kpc from the centers of J.26, J.36, J.03 and J.64, respectively.
+For our sample of galaxies, we are sensitive to extended emission in annuli with mean distances of 18, 18, 24 and 14 kpc from the centers of J.26, J.36, J.03 and J.64, respectively.
 %%% KHRR -- don't understand these distances
  We do not detect any significant \ion{Mg}{2} emission at these distances around any of our target galaxies. The $\chi_{\text{smooth}}$ images shown in Figure \ref{fig:sigmas} confirm this. A comparison of the simulated emission with the $\chi_{\text{smooth}}$ version of the original continuum-subtracted image, shown in the first column, similarly suggests that we do not detect any extended \ion{Mg}{2} emission. We thus place $5\sigma$ upper limits on the SB of \ion{Mg}{2} emission for each galaxy in the sample, summarized in Table \ref{tab:det_lims}. The most sensitive detection limit using the largest area is SB(\ion{Mg}{2}) $<$ 5.74 $\times$ $10^{-19}$ ergs sec $^{-1}$ cm$^{-2}$ arcsec$^{-2}$, computed for the galaxy J.03. 
 
@@ -367,7 +369,9 @@ Although we do not detect any extended \ion{Mg}{2} emission, we do observe a dec
 the value of SB$_{\rm abs} = (-1.25 \pm 1.12) \times10^{-18}$ erg s$^{-1}$ cm$^{-2}$ arcsec$^{-2}$, and is consistent with measuring zero absorption as expected given the redshift of this system. This measurement suggests that the quality of our continuum subtraction is satisfactory.
 
 \subsubsection{Morphology of MgII Absorption}
-Figure \ref{fig:ews}  shows the images, distributions and radial projections of \ion{Mg}{2} EWs. We have zeroed out any values that lie outside the SB$_1$ contours for each galaxy. We also impose a signal-to-noise cut, only including EW$_{\text{\ion{Mg}{2}}}$ values in the middle and right panels for pixels in which the continuum S/N is greater than $1.5$. The mean EW$_{\text{\ion{Mg}{2}}}$ is computed for all pixels inside each Keck/LRIS aperture, defined in Sec. \ref{subsec.ew}, and the error is propagated in quadrature. The resulting values of the mean EW and the error of the measurements are summarized in Table \ref{tab:abs_props}. Comparing our narrowband EWs with those measured from the spectra, we find agreement to within  1.6-4.6$\sigma$ for galaxies J.26 and J.36, and more statistically significant differences for galaxies J.03 and J.64. We discuss possible causes for these differences below.  We also note here that given the size of the median seeing disk for these observations ($\rm FWHM\approx0.8\arcsec$), the EW$_{\text{\ion{Mg}{2}}}$ values measured in adjacent pixels (each of which subtends $0.25\arcsec$) are not independent, and hence their errors are covariant. This covariance implies that the uncertainties in our mean EW$_{\text{\ion{Mg}{2}}}$ values are underestimated, such that the discrepancies between these values and those measured in our LRIS spectra are likely less significant than the tension described above. 
+Figure \ref{fig:ews}  shows the images, distributions and radial projections of \ion{Mg}{2} EWs. We have zeroed out any values that lie outside the SB$_1$ contours for each galaxy. We also impose a signal-to-noise cut, only including EW$_{\text{\ion{Mg}{2}}}$ values in the middle and right panels for pixels in which the continuum S/N is greater than $1.5$. The mean EW$_{\text{\ion{Mg}{2}}}$ is computed for all pixels inside each Keck/LRIS aperture, defined in Sec. \ref{subsec.ew}, and the error is propagated in quadrature. The resulting values of the mean EW and the error of the measurements are summarized in Table \ref{tab:abs_props}. Comparing our narrowband EWs with those measured from the spectra, we find agreement to within  1.6-4.6$\sigma$ for galaxies J.26 and J.36, and more statistically significant differences for galaxies J.03 and J.64. We discuss possible causes for these differences below.  
+
+Given the size of the median seeing disk for these observations ($\rm FWHM\approx0.8\arcsec$), the EW$_{\text{\ion{Mg}{2}}}$ values measured in adjacent pixels (each of which subtends $0.25\arcsec$) are not independent, and hence their errors are covariant. This covariance implies that the uncertainties in our mean EW$_{\text{\ion{Mg}{2}}}$ values are underestimated, such that the discrepancies between these values and those measured in our LRIS spectra are likely less significant than the tension described above. 
 
 Figure \ref{fig:spec_images}(c) shows the Keck/LRIS spectrum of galaxy J.03. The continuum observed near the \ion{Mg}{2} transition has low S/N compared to the spectra of the rest of the sample. Since the value of EW$_{\text{\ion{Mg}{2}}}$ depends on the level of the continuum, %present near the \ion{Mg}{2} transition, 
 it may well be that our choice of continuum level in calculating the EW$_{\text{\ion{Mg}{2}}}$ from the spectrum is higher than the continuum level implied by our narrow-band image.
