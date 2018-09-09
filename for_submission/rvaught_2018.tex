@@ -17,20 +17,20 @@
 \begin{document}
 \title{A VLT/FORS2 Narrowband Imaging Search for \ion{Mg}{2} Emission Around $\lowercase{z}\sim0.7$ Galaxies }
 \author{Ryan Rickards Vaught}
-\affiliation{Department of Astronomy, San Diego State University, San Diego, CA 92182}
+\affiliation{Department of Astronomy, San Diego State University, San Diego, CA 92182, USA}
 \affiliation{Department of Physics, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093, USA} 
  
- \author{Kate H. R. Rubin }
+ \author{Kate H. R. Rubin}
  \affiliation{Department of Astronomy, San Diego State University, San Diego, CA 92182, USA}
  
  \author{Fabrizio Arrigoni Battaia }
  \affiliation{European Southern Observatory, Karl-Schwarzschild-Str. 2, D-85748 Garching bei M\"unchen, Germany}
 
  \author{J. Xavier Prochaska}
- \affiliation{Department of Astronomy \& Astrophysics, University of California, 1156 High St., Santa Cruz, CA 95064 USA}
+ \affiliation{Department of Astronomy \& Astrophysics, University of California, 1156 High Street, Santa Cruz, CA 95064, USA}
  
 \author{Joseph F. Hennawi}
-\affiliation{Department of Physics, Broida Hall, University of California, Santa Barbara, CA 93106-9530}
+\affiliation{Department of Physics, Broida Hall, University of California, Santa Barbara, CA 93106, USA}
 
 \correspondingauthor{Ryan Rickards Vaught}
 \email{rjrickar@ucsd.edu}
@@ -140,29 +140,6 @@ The frames, after background-subtraction, are resampled onto a common astrometri
 The images are weighted by the night-flat image and then  average-combined to increase the signal-to-noise of any \ion{Mg}{2} emission. Additionally, \emph{SWarp} generates stacked RMS images by propagating the error images for each science frame.
 Our final stacked images in each filter are shown in Figure~\ref{fig:stacked_image} with the target galaxies indicated.  
 
-%\begin{table*}[t]
-%\centering
-%\caption{Properties of the 5 galaxies in our sample as estimated in \cite{Rubin_2014}. The EW (in the observed frame) includes both components of the \ion{Mg}{2} doublet and is 
-%determined from analysis of the supplemental Keck/LRIS spectra.}
-%\begin{tabular}{llllllll} \hline \hline
-%Object\footnote{ Name in parenthesis to be used as shorthand for the objects throughout the remainder of the paper. } & R.A. & Dec  & $z$ & SFR($M_{\odot}$ yr$^{-1}$) & $\log{M_{*}/M_{\odot}}$ & EW$_{\rm{obs}}$(\AA) & $\tau_V$\footnote{ Total V-band optical depth of dust as estimated by SED fitting with MAGPHYS. }\smallskip      \\ \hline 
-%J033225.26-274524.0 (J.26)      & 03:32:25.26 & -27:45:23.9 & 0.6660 & $9.1_{-3.7}^{+1.3}$& $9.86_{-0.04}^{+0.05}$ & $7.539\pm 0.354$ &  $1.227_{-0.20}^{+1.54}$\\ 
-
-%J033231.36-274725.0 (J.36)      & 03:32:31.35 & -27:47:24.9 &   0.6669 & $10.5_{-1.6}^{+1.7}$ & $10.02_{-0.03}^{+0.03}$&$5.835 \pm 0.493$ & $1.377_{-0.23}^{+0.60}$\\
-
-%J033230.03-274347.3  (J.03)     & 03:32:30.03 & -27:43:47.2  &   0.6679 & $3.8_{-0}^{+0}$ & $10.98_{-0.0}^{+0.01}$ &$12.794 \pm 1.710$ & $0.297_{-0.0}^{+0.0}$ \\
-
-%J033229.64-274242.6  (J.64)    & 03:32:29.64 & -27:42:42.5 & 0.6671 & $40.5_{-12.1}^{+8.2}$ & $10.30_{-0.03}^{+0.07}$ &$13.239 \pm 0.263$ & $3.897_{-0.93}^{+1.15}$\\
-
-%J033230.57-274518.2  (J.57)    & 03:32:30.56 & -27:45:18.2 &   0.6807  & $12.6_{-2.1}^{+1.7}$ & $10.48_{-0.07}^{+0.03}$ &$6.106 \pm 0.370$ & $1.262_{-0.40}^{+1.23}$ \\
-%\hline 
-%\end{tabular}
-%\tablenotemark{}
-%\tablenotetext{}{\textit{Note} - The uncertainty intervals reported for SFR, $\log M_*/M_{\odot}$, and $\tau_V$ values indicate the $\pm34$th-percentile values of the posterior probability distribution function of each quantity as determined via modeling of the objects' SEDs with MAGPHYS (\citeauthor{daCunha2008} \citeyear{daCunha2008}, \citeyear{daCunha2012}) as described in \citet{Rubin_2014}}
-%\label{tab:prop}
-%\end{table*}
-
-
 \begin{deluxetable*}{c c c c D D c D}
 \tablecaption{Properties of the 5 galaxies in our sample as estimated in \cite{Rubin_2014}. The EW (in the observed frame) includes both components of the \ion{Mg}{2} doublet and is 
 determined from analysis of the supplemental Keck/LRIS spectra. \label{tab:prop}}
@@ -203,7 +180,7 @@ We acquired observations of the standard star GD50 from archival ESO calibration
 F_{i}=\int F(\lambda)T_{i}(\lambda)d\lambda.
 \end{equation*}
 It is not uncommon to assume that $F(\lambda)$ is constant over the small width of the filter. 
-However, since our filter transmission curves are sampled at wavelengths similar to sampling of the spectrum of GD50 from the the CALSPEC library \citep{Bohlin2017}, we interpolate both spectra and compute the integral numerically. 
+However, since our filter transmission curves are sampled at wavelengths similar to sampling of the spectrum of GD50 from the the CALSPEC library \citep{Bohlin2017}, we interpolate both spectra and compute the integral without the constant $F(\lambda)$ assumption . 
 The conversion from count rate to flux units for each filter is then given by
 \begin{equation*}
 S_{i}=\dfrac{F_{i}}{C10^{k_{i}A}},
@@ -270,10 +247,11 @@ To test for the presence of \ion{Mg}{2} emission, we perform aperture photometry
 
 The error in the SB is determined from the stacked RMS images of each object.  We adopt annuli that are identical to the annuli used to find the SB profiles for each galaxy. To calculate the variance inside each annulus, we sum the RMS pixel values in quadrature, then divide by the area of each annulus. 
 
-To calculate the $1\sigma$ SB limit we follow the procedure of \cite{Battaia_2015}. We first mask out all the sources, their associated extended halos, and edge noise in both the HeII+47 and HeII/3000+48 images. We then calculate the RMS of the background in randomly-placed $1\arcsec$ apertures. We convert these RMS values to SB limits per $1~\rm arcsec^2$  aperture. We find that the 1$\sigma$ detection limits 
-(SB$_1$) are $6.332\times10^{-19}$ ergs sec $^{-1}$ cm$^{-2}$ arcsec$^2$ and $5.808\times10^{-19} $ ergs sec $^{-1}$ cm$^{-2}$ arcsec$^2$ in the HeII/3000+48 and HeII+47 filters, respectively. With the 1$\sigma$ detection limit, SB$_1$, determined for the continuum+\ion{Mg}{2} (HeII+47) image, we define a thicker (or ``extended") annulus to be used to search for any extended \ion{Mg}{2} emission. This annulus will have an inner radius approximately the size of the SB$_1$ isophotal contour for each galaxy. The outer radius is chosen to be the inner radius plus 5 pixels. With this larger annulus, we can average any flux over large areas to reach lower SB. The mean radii of these extended apertures are 18, 18, 24 and 21 kpc from the centers of the targets J.26, J.36, J.03 and J.64, respectively. The resulting SB measurements are shown in Figure~\ref{fig:sb_profiles}.
+To calculate the $1\sigma$ SB limit we follow the procedure of \cite{Battaia_2015}. We first mask out all the sources, their associated extended halos, and edge noise in both the HeII+47 and HeII/3000+48 images. We then calculate the RMS of the background in randomly-placed $1\arcsec$ apertures. We convert these RMS values to SB limits per $1~\rm arcsec^2$  aperture. We find that the 1$\sigma$ detection limits (SB$_1$) are $6.332\times10^{-19}$ ergs sec $^{-1}$ cm$^{-2}$ arcsec$^2$ and $5.808\times10^{-19} $ ergs sec $^{-1}$ cm$^{-2}$ arcsec$^2$ in the HeII/3000+48 and HeII+47 filters, respectively. 
+With the 1$\sigma$ detection limit, SB$_1$, determined for the continuum+\ion{Mg}{2} (HeII+47) image, we define a thicker (or ``extended") annulus to be used to search for any extended \ion{Mg}{2} emission. This annulus will have an inner radius approximately the size of the SB$_1$ isophotal contour for each galaxy. The outer radius is chosen to be the inner radius plus 5 pixels. With this larger annulus, we can average any flux over large areas to reach lower SB. The mean radii of these extended apertures are 18, 18, 24 and 21 kpc from the centers of the targets J.26, J.36, J.03 and J.64, respectively. The resulting SB measurements are shown in Figure~\ref{fig:sb_profiles}.
 
-In the case of perfect sky subtraction and continuum subtraction, the 1$\sigma$ SB limit for an extended source is $SB_{1}/\sqrt{A_\text{src}}$, where $A_\text{src}$ is the area in arcsec$^2$ and $SB_{1}$ is the surface brightness limit per 1 arcsec$^2$ aperture. However, our actual detection limits are altered by systematic error from imperfect subtraction. Therefore, we determine the limits as follows. We first mask all the artifacts and sources in the continuum-subtracted images. Next, we generate many apertures with sizes similar to our extended annulus ($\sim 20 \rm\ sq.arcsec$), place them at random, and extract the fluxes, $F_{\text{src}}$, within these apertures. We then normalize the vales of $F_{\text{src}}$ by dividing by $\sigma_{\text{src}}$, where $\sigma_{\text{src}} \equiv SB_{1}\sqrt{A_\text{src}}$. For perfect sky subtraction and continuum subtraction, the distribution of extracted fluxes should follow a Gaussian distribution with a variance equal to $\sigma_{\text{src}}$. The distribution of $F_{\text{src}}/\sigma_{\text{src}}$ for these apertures is shown in Figure \ref{fig:limits}
+In the case of perfect sky subtraction and continuum subtraction, the 1$\sigma$ SB limit for an extended source is $SB_{1}/\sqrt{A_\text{src}}$, where $A_\text{src}$ is the area in arcsec$^2$ and $SB_{1}$ is the surface brightness limit per 1 arcsec$^2$ aperture. However, our actual detection limits are altered by systematic error from imperfect subtraction. Therefore, we determine the limits as follows. 
+We first mask all the artifacts and sources in the continuum-subtracted images. Next, we generate many apertures with sizes similar to our extended annulus ($\sim 20 \rm\ sq.arcsec$), place them at random, and extract the fluxes, $F_{\text{src}}$, within these apertures. We then normalize the values of $F_{\text{src}}$ by dividing by $\sigma_{\text{src}}$, where $\sigma_{\text{src}} \equiv SB_{1}\sqrt{A_\text{src}}$. For perfect sky subtraction and continuum subtraction, the distribution of extracted fluxes should follow a Gaussian distribution with a variance equal to $\sigma_{\text{src}}$. The distribution of $F_{\text{src}}/\sigma_{\text{src}}$ for these apertures is shown in Figure \ref{fig:limits}
 
 We calculate the variance and mean of the distribution and find that the variance of the distribution is $\sigma'_{\text{src}}=1.1$, implying that the SB detection limit for our continuum-subtracted image is higher than $\sigma_{\text{src}}$ by a factor of 10\%. We adopt $F_{\text{limit}} \equiv \sigma'_{\text{src}}$  as the $1 \sigma$ upper limit on the total line flux of extended \ion{Mg}{2} emission. The SB$_{\text{limit}}$ is then $F_{\text{limit}}/A_{\rm{src}}$. The values of $F_{\text{src}}$ and 5SB$_{\text{limit}}$ for each galaxy are listed in Table \ref{tab:det_lims}.
 
@@ -303,9 +281,9 @@ J033230.57-274518.2 &  -2.53 (-1.00) & 6.81 &18 \\
 \subsection{Test of Surface Brightness Limits}\label{subsec:test}
 To show that \ion{Mg}{2} emission with SB strengths comparable to our limits can be detected in our narrowband imaging, we simulate emission with varying intensities of SB$_{\text{limit}}$. For each galaxy, we assign our simulated emission a constant surface brightness corresponding to 1, 3, 5, 10 and 20 times the $1\sigma$ SB$_{\text{limit}}$ inside the largest annulus used (i.e., the extended annulus). We assume Gaussian noise with 1$\sigma$ equal to 1SB$_{\text{limit}}$. Next, we subtract the continuum in the same manner as explained in Section \ref{subsec.cont_sub}. 
 
-We construct smoothed $\chi$ images, $\chi_{\text{smooth}}$, for each level of simulated emission, following the techniques in \cite{Hennawi2013} and \cite{Battaia_2015}. These $\chi_{\text{smooth}}$ images can aid in identifying the presence and detectability of extended \ion{Mg}{2} emission.
+To aid in identifying the presence and detectability of extended \ion{Mg}{2} emission, we construct a $\chi_{\text{smooth}}$, for each level of simulated emission, following the techniques in \cite{Hennawi2013} and \cite{Battaia_2015}.
 
-First, the model continuum-subtracted image is smoothed by the operation:
+To construct this smoothed image, we first performed the following operation on a continuum-subtracted image:
 \begin{equation}
 I_{\text{smooth}}= \text{CONVOLVE[line-continuum]},
 \end{equation}
