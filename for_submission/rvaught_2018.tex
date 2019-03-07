@@ -1,4 +1,5 @@
-\documentclass[twocolumn]{aastex62}
+%\documentclass[twocolumn]{aastex62}
+\documentclass[trackchanges,twocolumn]{aastex62}
 \usepackage{natbib}
 \bibliographystyle{apj}
 \usepackage{graphicx}
@@ -84,7 +85,7 @@ Our target galaxies were selected from a Keck/LRIS survey of UV absorption lines
 to be close on the sky such that they could be imaged in a single $7' \times 7' $ FORS2 pointing.  
 We show color {\it HST}/ACS images of these objects in Figure~\ref{fig:hstims}.
 
-The \textbf{Bayesian} absorption line modeling presented in \cite{Rubin_2014} indicates that these five galaxies are driving strong outflows traced by \ion{Mg}{2}  with velocities $\sim150-420\mkms$ and \textbf{rest-frame} equivalent widths (EW) $\sim 2-3$ \AA. \textbf{Due to the photon scattering process described in Section \ref{sec:intro}, it is possible that scattered emission can fill in the deepest parts of the absorption line near systemic velocity and shift the valley of the line blueward. To mitigate the effects of any scattered emission, \cite{Rubin_2014} implement two models in their absorption line modeling. First, the absorption line is fit with a single velocity component, centered on the central wavelength of the transition, secondly a two velocity component or ``flow model" is implemented that assumes the absorption line is comprised of two velocities instead of one. The qualitative conetext of this scattering process, as it pertains to galactic winds, can be improved via higher resolution spectrum and radiative transfer analysis \cite{Prochaska_2011}}. Modeling of the galaxy broad-band spectral energy distributions (SEDs) obtained from multi-wavelength ancillary imaging data yields star formation rates (SFR) ranging from $\sim4$ to $40\msunperyr$ and stellar masses in the range $\log M_*/M_{\odot}\sim 9.9-11.0$. The properties of the sample, as well as precise target coordinates taken from \cite{Rubin_2014}, are listed in Table \ref{tab:prop}. 
+The \added{Bayesian} absorption line modeling presented in \cite{Rubin_2014} indicates that these five galaxies are driving strong outflows traced by \ion{Mg}{2} with \added{maximum outflow} velocities, $\Delta v_{\rm max}$ $\sim150-420\mkms$ and \textbf{rest-frame} equivalent widths (EW) $\sim 2-3$ \AA. \added{The reported maximum outflow velocities, see Table \ref{tab:prop}, are the result of fitting a two-velocity component model to the absorption line profile. The two component model assumes that there is a systemic velocity and ``flow" velocity that both contribute to the overall line profile. The maximum outflow velocity is the velocity of the flow, $v_{\rm flow}$ minus a fitted doppler parameter, $b_{D,\rm flow}/\sqrt{2}$. The use of the two component model is helpful to mitigate the effects of scattered emission filling up the absorption line which in turn pushes the trough of the line blueward. It is assumed that the resonant emission will reduce the systemic velocity, leaving the flow velocity to characterize the outflow. The qualitative context of this scattering process, as it pertains to galactic winds, can be improved via higher resolution spectrum and radiative transfer analysis \cite{Prochaska_2011}}. Modeling of the galaxy broad-band spectral energy distributions (SEDs) obtained from multi-wavelength ancillary imaging data yields star formation rates (SFR) ranging from $\sim4$ to $40\msunperyr$ and stellar masses in the range $\log M_*/M_{\odot}\sim 9.9-11.0$. The properties of the sample, as well as precise target coordinates taken from \cite{Rubin_2014}, are listed in Table \ref{tab:prop}. 
 
 \subsection{VLT/FORS2 Observations}
 Our narrowband imaging data were taken in service mode using the FORS2 instrument on the VLT 8.2m telescope Antu between October 2012 and February 2013. 
@@ -143,23 +144,40 @@ The frames, after background-subtraction, are resampled onto a common astrometri
 The images are weighted by the night-flat image and then  average-combined to increase the signal-to-noise of any \ion{Mg}{2} emission. Additionally, \emph{SWarp} generates stacked RMS images by propagating the error images for each science frame.
 Our final stacked images in each filter are shown in Figure~\ref{fig:stacked_image} with the target galaxies indicated.  
 
-\begin{deluxetable*}{c c c c D D c D}
+%\begin{deluxetable*}{c c c c D D c D}
+%\tablecaption{Properties of the 5 galaxies in our sample as estimated in \cite{Rubin_2014}. The EW (in the observed frame) includes both components of the \ion{Mg}{2} doublet and is 
+%determined from analysis of the supplemental Keck/LRIS spectra. \label{tab:prop}}
+%\tablehead{\colhead{Object} & \colhead{R.A.} & \colhead{Dec} & \colhead{$z$} & \multicolumn2c{SFR} & \multicolumn2c{$\log{(M)}$} & \colhead{EW$_{\rm{obs}}$} & \multicolumn2c{ $\tau_V$} \\ 
+%\colhead {} & \colhead {} & \colhead {} & \colhead{} & \multicolumn2c{($M_{\odot}$ yr$^{-1}$)} & \multicolumn2c{($\log{M_{*}/M_{\odot}}$)} & \colhead{(\AA)} & \multicolumn2c{}}
+%\decimals
+%\startdata
+%J033225.26-274524.0 (J.26)     & 03:32:25.26 & -27:45:23.9  &   0.6660  & $9.1_{-3.7}^{+1.3}$     & $9.86_{-0.04}^{+0.05}$   & \ $7.5\pm 0.4$   &  $1.227_{-0.20}^{+1.54}$ \\ 
+%J033231.36-274725.0 (J.36)     & 03:32:31.35 & -27:47:24.9  &   0.6669  & $10.5_{-1.6}^{+1.7}$   & $10.02_{-0.03}^{+0.03}$ & \ $5.8 \pm 0.5$   & $1.377_{-0.23}^{+0.60}$ \\
+%J033230.03-274347.3 (J.03)     & 03:32:30.03 & -27:43:47.2  &   0.6679  & $3.8_{-0}^{+0}$           & $10.98_{-0.0}^{+0.01}$   & $12.8 \pm 1.7$ & $0.297_{-0.0}^{+0.0}$ \\
+%J033229.64-274242.6 (J.64)     & 03:32:29.64 & -27:42:42.5  &   0.6671  & $40.5_{-12.1}^{+8.2}$ & $10.30_{-0.03}^{+0.07}$ & $13.2 \pm 0.3$ & $3.897_{-0.93}^{+1.15}$ \\
+%J033230.57-274518.2 (J.57)     & 03:32:30.56 & -27:45:18.2  &   0.6807  & $12.6_{-2.1}^{+1.7}$   & $10.48_{-0.07}^{+0.03}$ & \ $6.1 \pm 0.4$   & $1.262_{-0.40}^{+1.23}$ \\
+%\enddata
+%\tablecomments{The uncertainty intervals reported for SFR, $\log M_*/M_{\odot}$, and $\tau_V$ i.e. \textbf{dust opacity of the galaxy}, values indicate the $\pm34$th-percentile values of the posterior probability distribution function of each quantity as determined via modeling of the objects' SEDs with MAGPHYS (\citeauthor{daCunha2008} \citeyear{daCunha2008}, \citeyear{daCunha2012}) as described in \citet{Rubin_2014}.}
+%\end{deluxetable*}
+
+\begin{deluxetable*}{c c D D D c D}
 \tablecaption{Properties of the 5 galaxies in our sample as estimated in \cite{Rubin_2014}. The EW (in the observed frame) includes both components of the \ion{Mg}{2} doublet and is 
 determined from analysis of the supplemental Keck/LRIS spectra. \label{tab:prop}}
-\tablehead{\colhead{Object} & \colhead{R.A.} & \colhead{Dec} & \colhead{$z$} & \multicolumn2c{SFR} & \multicolumn2c{$\log{(M)}$} & \colhead{EW$_{\rm{obs}}$} & \multicolumn2c{ $\tau_V$} \\ 
-\colhead {} & \colhead {} & \colhead {} & \colhead{} & \multicolumn2c{($M_{\odot}$ yr$^{-1}$)} & \multicolumn2c{($\log{M_{*}/M_{\odot}}$)} & \colhead{(\AA)} & \multicolumn2c{}}
+\tablehead{\colhead{Object\tablenotemark{a}} &  \colhead{$z$} & \multicolumn2c{SFR} & \multicolumn2c{$\log{(M)}$} &\colhead{$\Delta v_{\rm max}$\tablenotemark{b}} &\multicolumn2c{EW$_{\rm{obs}}$} & \multicolumn2c{ $\tau_V$\tablenotemark{c}} \\ 
+\colhead {} & \colhead{} & \multicolumn2c{($M_{\odot}$ yr$^{-1}$)} & \multicolumn2c{($\log{M_{*}/M_{\odot}}$)} & \colhead{(km s$^{-1}$)} & \multicolumn2c{(\AA)} & \multicolumn2c{}}
 \decimals
 \startdata
-J033225.26-274524.0 (J.26)     & 03:32:25.26 & -27:45:23.9  &   0.6660  & $9.1_{-3.7}^{+1.3}$     & $9.86_{-0.04}^{+0.05}$   & \ $7.5\pm 0.4$   &  $1.227_{-0.20}^{+1.54}$ \\ 
-J033231.36-274725.0 (J.36)     & 03:32:31.35 & -27:47:24.9  &   0.6669  & $10.5_{-1.6}^{+1.7}$   & $10.02_{-0.03}^{+0.03}$ & \ $5.8 \pm 0.5$   & $1.377_{-0.23}^{+0.60}$ \\
-J033230.03-274347.3 (J.03)     & 03:32:30.03 & -27:43:47.2  &   0.6679  & $3.8_{-0}^{+0}$           & $10.98_{-0.0}^{+0.01}$   & $12.8 \pm 1.7$ & $0.297_{-0.0}^{+0.0}$ \\
-J033229.64-274242.6 (J.64)     & 03:32:29.64 & -27:42:42.5  &   0.6671  & $40.5_{-12.1}^{+8.2}$ & $10.30_{-0.03}^{+0.07}$ & $13.2 \pm 0.3$ & $3.897_{-0.93}^{+1.15}$ \\
-J033230.57-274518.2 (J.57)     & 03:32:30.56 & -27:45:18.2  &   0.6807  & $12.6_{-2.1}^{+1.7}$   & $10.48_{-0.07}^{+0.03}$ & \ $6.1 \pm 0.4$   & $1.262_{-0.40}^{+1.23}$ \\
+J033225.26-274524.0 (J.26)     &   0.6660  & $9.1_{-3.7}^{+1.3}$     & $9.86_{-0.04}^{+0.05}$   &   $-187_{-16}^{+12}$ & \ $7.5\pm 0.4$   &  $1.227_{-0.20}^{+1.54}$ \\ 
+J033231.36-274725.0 (J.36)     &   0.6669  & $10.5_{-1.6}^{+1.7}$   & $10.02_{-0.03}^{+0.03}$ &   $-168_{-126}^{+33}$ & \ $5.8 \pm 0.5$   & $1.377_{-0.23}^{+0.60}$ \\
+J033230.03-274347.3 (J.03)     &   0.6679  & $3.8_{-0}^{+0}$           & $10.98_{-0.0}^{+0.01}$   &   $-400_{-64}^{+132}$ & $12.8 \pm 1.7$ & $0.297_{-0.0}^{+0.0}$ \\
+J033229.64-274242.6 (J.64)     &   0.6671  & $40.5_{-12.1}^{+8.2}$ & $10.30_{-0.03}^{+0.07}$ &   $-378_{-12}^{+12}$ & $13.2 \pm 0.3$ & $3.897_{-0.93}^{+1.15}$ \\
+J033230.57-274518.2 (J.57)     &   0.6807  & $12.6_{-2.1}^{+1.7}$   & $10.48_{-0.07}^{+0.03}$ &   $-266_{-38}^{+44}$ & \ $6.1 \pm 0.4$   & $1.262_{-0.40}^{+1.23}$ \\
 \enddata
-\tablecomments{The uncertainty intervals reported for SFR, $\log M_*/M_{\odot}$, and $\tau_V$ i.e. \textbf{dust opacity of the galaxy}, values indicate the $\pm34$th-percentile values of the posterior probability distribution function of each quantity as determined via modeling of the objects' SEDs with MAGPHYS (\citeauthor{daCunha2008} \citeyear{daCunha2008}, \citeyear{daCunha2012}) as described in \citet{Rubin_2014}.}
+\tablenotetext{a}{\added{Galaxy ID's are named according to the object R.A and DEC. position.}}
+\tablenotetext{b}{\added{Maximum outflow velocity, $\Delta v_{\rm max} \approx v_{\rm flow}- b_{D,\rm flow}/\sqrt{2}$ where $b_{D,\rm flow}$ is the Doppler parameter or velocity width of the absorption.}}
+\tablenotetext{c}{\added{Total V-band optical depth.}} 
+\tablecomments{The uncertainty intervals reported for SFR, $\log M_*/M_{\odot}$, and $\tau_V$ values indicate the $\pm34$th-percentile values of the posterior probability distribution function of each quantity as determined via modeling of the objects' SEDs with MAGPHYS (\citeauthor{daCunha2008} \citeyear{daCunha2008}, \citeyear{daCunha2012}) as described in \citet{Rubin_2014}.}
 \end{deluxetable*}
-
-
 
 \begin{deluxetable}{c c c c c c}
 \tablecaption{Filter properties  and exposure times of the VLT/FORS2 observations. The widths of the transmission curves ($\Delta\lambda$) are calculated by convolving the transmission curves over the total wavelength range of each filter. 
@@ -177,7 +195,7 @@ HeII/3000+48 (Cont.) & 4722.46  & 44.82 & 38  & 36,937 & 2.40  \\
 \tablenotetext{d}{Total exposure time.}
 \tablenotetext{e}{S, the sensitivity of the filter, is in units of $10^{-17}$ ergs counts$^{-1}$ cm$^{-2}$.}
 \end{deluxetable}\ 
-%\\
+
 
 
 \subsection{Absolute Flux Calibration}
@@ -427,7 +445,9 @@ Previous constraints on the brightness of scattered \ion{Mg}{2} emission were re
 
 
 \subsection{Strength of \ion{Mg}{2} emission and Correlation with Galaxy Properties }
-\textbf{The middle panel of Figure \ref{fig:all_limits} suggests that extended \ion{Mg}{2} emission may be brighter in lower mass galaxies. A similar trend was observed by both \cite{Erb2012} and \cite{Feltre2018} in their examination of the total \ion{Mg}{2} emission strength vs. galaxy $M_*$. In addition to the observed trend that emission strength may be correlated with galaxy mass, a recent study by \cite{Henry2018} showed significant \ion{Mg}{2} emission, characterized with escape fractions between $0-0.9$, in a sample of $z \sim 0.2-0.3$ Green Pea galaxies. Photoionization modeling of the observed strength of emission suggests that in addition to scattering of continuum photons, HII regions may also produce a non-negligible contribution to observed \ion{Mg}{2} emission. Finally, the right panel of Figure \ref{fig:all_limits} shows that the galaxy with detected \ion{Mg}{2} also has the highest specific SFR. If it is ultimately confirmed that low-$M_*$ galaxies with the highest SFRs, or highest specific SFRs, exhibit the brightest emission, this could point to a physical link between the escape velocity of galaxies and the spatial extent of wind material}
+\added{The middle panel of Figure \ref{fig:all_limits} suggests that extended \ion{Mg}{2} emission may be brighter in lower mass galaxies. A similar trend was observed by both \cite{Erb2012} and \cite{Feltre2018} in their examination of the total \ion{Mg}{2} emission strength vs. galaxy $M_*$. In addition to the observed trend that emission strength may be correlated with galaxy mass, recent studies by \cite{Henry2018} and \cite{Guseva2019} show significant contribution from nebular emission to the total \ion{Mg}{2} emission strength. In \cite{Henry2018} report strong \ion{Mg}{2} emission, characterized with escape fractions between $0-0.9$, in a sample of $z \sim 0.2-0.3$ Green Pea galaxies. Photoionization modeling of the observed strength of emission suggests that in addition to scattering of continuum photons, HII regions may also produce a non-negligible contribution to observed \ion{Mg}{2} emission, with the strength set b the escape fraction. In \cite{Guseva2019}, the authors find that low metallicity \ion{Mg}{2} emitters from \cite{Feltre2018} and \cite{Finley2017} have high H$\beta$ EW's, confirming that \ion{Mg}{2} emission has nebular origin. However, our sample of galaxies are comparitavely more massive and thus richer in metal than the galaxies that are known to contain significant nebular emission. The total contribution from nebular \ion{Mg}{2} to the total \ion{Mg}{2} emission remains to be determined for more massive and metal rich galaxies.}
+
+Finally, the right panel of Figure \ref{fig:all_limits} shows that the galaxy with detected extended \ion{Mg}{2} also has the highest specific SFR. If it is ultimately confirmed that low-$M_*$ galaxies with the highest SFRs, or highest specific SFRs, exhibit the brightest emission, this could point to a physical link between the escape velocity of galaxies and the spatial extent of wind material.
 
 %Both \cite{Erb2012} and \cite{Feltre2018} observed a similar trend in their examination of the total \ion{Mg}{2} emission strength vs. galaxy $M_*$. Finally, the right panel of Figure \ref{fig:all_limits}
 %shows that the galaxy with detected \ion{Mg}{2} also has the highest specific SFR. If it is ultimately confirmed that low-$M_*$ galaxies with the highest SFRs, or highest specific SFRs, exhibit the brightest emission, this could point to a physical link between the escape velocity of galaxies and the spatial extent of wind material. 
@@ -504,5 +524,5 @@ Hemisphere under ESO programs 090.A-0427(A).
 
 \newpage
 \bibliography{references2017}
-
+\listofchanges
 \end{document}
