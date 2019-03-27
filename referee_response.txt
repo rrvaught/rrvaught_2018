@@ -1,8 +1,8 @@
-Dear Anonymous Referee,
-
-Thank you so much for your kind words and comments on the manuscript "A VLT/FORS2 Narrowband
-Imaging Search for MgII Emission in z~0.70 Galaxies". Below is a list of your comments and
-our edits according to these comments.
+We wish to thank the referee for their supportive and helpful comments on our
+manuscript "A VLT/FORS2 Narrowband Imaging Search for MgII Emission in
+z~0.70 Galaxies".  We have implemented each of the suggestions they
+sent in their report (in boldface type).  Please see our direct
+responses to each comment below.
 
 Comment:"In the last paragraph of Section 2.1 a little more information about the absorption lines would be helpful. 
 The velocities are quoted as ~150-420 km/s -- is this measured from the centroids of the lines? 
@@ -11,25 +11,25 @@ more detail on where these numbers come from and how to interpret them would be 
 It would also be helpful to note that the equivalent widths given here are in the rest frame, since 
 they are discussed in the observed frame in most of the rest of the paper." 
 
-Reply: We expanded the last paragraph to include a refined description of the velocities being reported. We 
-added the velocity reported for each galaxy in Table 1. Additionally, we discussed what type of model is being used
-to measure the lines and how these mitigate the effect of infilling emission. We also note that the EW's mentioned
-here are the rest-frame equivalent widths.
+Reply: We expanded the last paragraph of Section 2.1 to include a more
+detailed description of the velocities being reported.  We also
+added the velocity reported for each galaxy to Table 1. Additionally,
+we now discuss the type of model that was used
+to fit the lines and how this mitigates the effects of infilling from scattered
+emission.  We have added a note stating that the EWs mentioned
+here are rest-frame equivalent widths.
 
-Comment: Please add a note to Table 1 explaining what tau_V is, since it isn't discussed until later in the paper
-and it is a bit less obvious than the other quantities in the table.
+Comment: "Please add a note to Table 1 explaining what tau_V is, since it isn't discussed until later in the paper
+and it is a bit less obvious than the other quantities in the table."
 
-Reply: We added a note to Table 1 which gives more insight to tau_V.
+Reply: We have added a note to Table 1 which gives some description of tau_V.
 
-Comment:In the discussion of previous results in Section 6.1, I think providing some context from Henry et al 2018 would
+Comment: "In the discussion of previous results in Section 6.1, I think providing some context from Henry et al 2018 would
 be useful. Although this paper didn't present spatially extended emission, their results on which galaxies are 
 likely to have strong MgII emission is relevant, in particular the finding that nebular emission is important as 
 well as resonantly scattered continuum photons, and the finding that the strength of the emission may be set by the 
-escape fraction of MgII photons rather than the intrinsic production.
+escape fraction of MgII photons rather than the intrinsic production."
 
-Reply: Added a discussion of Henry et al 2016 and Guseva et al.(2019).
+Reply: We have added discussion of results from Henry et al (2018) to
+a new section following Section 6.1 as requested (see Section 6.2).
 
-Thank you so much again for your comments!
-
-Cheers,
-Ryan
