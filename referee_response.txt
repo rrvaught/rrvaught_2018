@@ -33,3 +33,4 @@ escape fraction of MgII photons rather than the intrinsic production."
 Reply: We have added discussion of results from Henry et al (2018) to
 a new section following Section 6.1 as requested (see Section 6.2).
 
+Additionally, we added a discussion of the SB of extended MgII emission in the galaxy 32016857 by Martin et al 2013 to Section 6.1. Figure 11 was updated to include 32016857 as well.
